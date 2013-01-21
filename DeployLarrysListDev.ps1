@@ -11,8 +11,8 @@ Remove-item c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListApi -recurse
 
 #deploy api
 New-Item c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListApi -type directory
-copy-item c:\Hudson\jobs\LarrysList_Dev\workspace\LarrysList\LarrysList\bin c:\inetpub\wwwroot\BurnPlus\BurnPlus_Live\BurnPlusApi -recurse
-copy-item c:\Hudson\jobs\LarrysList_Dev\workspace\LarrysList\LarrysList\web.config c:\inetpub\wwwroot\BurnPlus\BurnPlus_Live\BurnPlusApi
+copy-item c:\Hudson\jobs\LarrysList_Dev\workspace\LarrysList\LarrysList\bin c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListApi -recurse
+copy-item c:\Hudson\jobs\LarrysList_Dev\workspace\LarrysList\LarrysList\web.config c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListApi
 #copy-item c:\Hudson\jobs\LarrysList_Dev\workspace\LarrysList\LarrysList\global.asax c:\inetpub\wwwroot\BurnPlus\BurnPlus_Live\BurnPlusApi
 #copy-item c:\Hudson\jobs\LarrysList_Dev\workspace\workspace\LarrysList\LarrysList\nlog.config c:\inetpub\wwwroot\BurnPlus\BurnPlus_Live\BurnPlusApi
 
