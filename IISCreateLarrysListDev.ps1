@@ -8,6 +8,6 @@ New-Item IIS:\AppPools\LarrysListDevAppPool
 Set-ItemProperty IIS:\AppPools\LarrysListDevAppPool managedRuntimeVersion v4.0
 
 
-New-Item IIS:\Sites\LarrysList_Dev_Api -bindings @{protocol="https";bindingInformation=":443:live.api.conspinacy.com"} -physicalPath c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListApi
+New-Item IIS:\Sites\LarrysList_Dev_Api -bindings @{protocol="https";bindingInformation=":443:dev.api.bookpar.com"} -physicalPath c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListApi
 Set-ItemProperty IIS:\Sites\LarrysList_Dev_Api -name applicationPool -value LarrysListDevAppPool
 
