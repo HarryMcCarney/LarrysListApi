@@ -24,6 +24,8 @@ namespace LarrysList.Models
         [XmlAttribute]
         public string nationality { get; set; }
         [XmlAttribute]
+        public string wikipedia { get; set; }
+        [XmlAttribute]
         public string title { get; set; }
         [XmlAttribute]
         public string picture { get; set; }
@@ -33,6 +35,10 @@ namespace LarrysList.Models
         public List<University> University { get; set; }
         [XmlElement]
         public Workflow Workflow { get; set; }
+        [XmlElement]
+        public List<Network> Network { get; set; }
+        [XmlElement]
+        public List<Email> Email { get; set; }
 
 
     }

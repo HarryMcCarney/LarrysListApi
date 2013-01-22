@@ -118,7 +118,9 @@
     </Compile>
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\Collector.cs" />
+    <Compile Include="Models\Email.cs" />
     <Compile Include="Models\Global.cs" />
+    <Compile Include="Models\Network.cs" />
     <Compile Include="Models\Setting.cs" />
     <Compile Include="Models\Stage.cs" />
     <Compile Include="Models\University.cs" />
