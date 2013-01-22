@@ -31,8 +31,10 @@ namespace LarrysList.Models
         public List<Address> Address { get; set; }
         [XmlElement]
         public List<University> University { get; set; }
+        [XmlElement]
+        public Workflow Workflow { get; set; }
 
-        
+
     }
  
 }
