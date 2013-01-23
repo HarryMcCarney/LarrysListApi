@@ -23,5 +23,7 @@ namespace LarrysList
         public Global Global { get; set; }
         [XmlElement]
         public Collector Collector { get; set; }
+        [XmlElement]
+        public Config Config { get; set; }
     }
 }

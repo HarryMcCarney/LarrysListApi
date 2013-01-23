@@ -113,17 +113,23 @@
     <Compile Include="Auth\AuthClient.cs" />
     <Compile Include="Controllers\Admin\CollectorController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\ConfigController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\Collector.cs" />
     <Compile Include="Models\Company.cs" />
+    <Compile Include="Models\Config.cs" />
     <Compile Include="Models\Email.cs" />
     <Compile Include="Models\Global.cs" />
+    <Compile Include="Models\Industry.cs" />
+    <Compile Include="Models\Nationality.cs" />
     <Compile Include="Models\Network.cs" />
+    <Compile Include="Models\Position.cs" />
     <Compile Include="Models\Setting.cs" />
     <Compile Include="Models\Stage.cs" />
+    <Compile Include="Models\Title.cs" />
     <Compile Include="Models\University.cs" />
     <Compile Include="Models\Workflow.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
