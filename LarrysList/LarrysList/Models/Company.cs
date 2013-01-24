@@ -15,7 +15,7 @@ namespace LarrysList.Models
         [XmlAttribute]
         public string url { get; set; }
         [XmlAttribute]
-        public string city { get; set; }
+        public string cityToken { get; set; }
         [XmlAttribute]
         public string line1 { get; set; }
         [XmlAttribute]

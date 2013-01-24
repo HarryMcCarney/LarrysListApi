@@ -25,5 +25,7 @@ namespace LarrysList
         public Collector Collector { get; set; }
         [XmlElement]
         public Config Config { get; set; }
+        [XmlElement]
+        public List<AddressSearchResult> AddressSearchResult { get; set; }
     }
 }

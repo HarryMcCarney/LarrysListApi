@@ -112,12 +112,15 @@
   <ItemGroup>
     <Compile Include="Auth\AuthClient.cs" />
     <Compile Include="Controllers\Admin\CollectorController.cs" />
+    <Compile Include="Controllers\Admin\SearchController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\ConfigController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\AddressSearch.cs" />
+    <Compile Include="Models\AddressSearchResult.cs" />
     <Compile Include="Models\Collector.cs" />
     <Compile Include="Models\Company.cs" />
     <Compile Include="Models\Config.cs" />
