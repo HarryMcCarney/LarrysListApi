@@ -22,5 +22,19 @@ namespace LarrysList.Controllers.Admin
             return formattedResult(result);
         }
 
+        public string collector(CollectorSearch search)
+        {
+            try
+            {
+                result = orm.execObject<Result>(search, "api.admin_search_collector");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
+
     }
 }

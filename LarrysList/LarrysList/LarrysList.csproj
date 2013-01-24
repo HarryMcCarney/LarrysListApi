@@ -122,6 +122,8 @@
     <Compile Include="Models\AddressSearch.cs" />
     <Compile Include="Models\AddressSearchResult.cs" />
     <Compile Include="Models\Collector.cs" />
+    <Compile Include="Models\Collectors.cs" />
+    <Compile Include="Models\CollectorSearch.cs" />
     <Compile Include="Models\Company.cs" />
     <Compile Include="Models\Config.cs" />
     <Compile Include="Models\Email.cs" />
