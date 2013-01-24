@@ -127,6 +127,7 @@
     <Compile Include="Models\Email.cs" />
     <Compile Include="Models\Global.cs" />
     <Compile Include="Models\Industry.cs" />
+    <Compile Include="Models\Interest.cs" />
     <Compile Include="Models\Nationality.cs" />
     <Compile Include="Models\Network.cs" />
     <Compile Include="Models\Position.cs" />
