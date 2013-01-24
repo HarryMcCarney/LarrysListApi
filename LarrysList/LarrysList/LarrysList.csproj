@@ -121,11 +121,13 @@
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\AddressSearch.cs" />
     <Compile Include="Models\AddressSearchResult.cs" />
+    <Compile Include="Models\City.cs" />
     <Compile Include="Models\Collector.cs" />
     <Compile Include="Models\Collectors.cs" />
     <Compile Include="Models\CollectorSearch.cs" />
     <Compile Include="Models\Company.cs" />
     <Compile Include="Models\Config.cs" />
+    <Compile Include="Models\Country.cs" />
     <Compile Include="Models\Email.cs" />
     <Compile Include="Models\Global.cs" />
     <Compile Include="Models\Industry.cs" />
@@ -133,6 +135,7 @@
     <Compile Include="Models\Nationality.cs" />
     <Compile Include="Models\Network.cs" />
     <Compile Include="Models\Position.cs" />
+    <Compile Include="Models\Region.cs" />
     <Compile Include="Models\Setting.cs" />
     <Compile Include="Models\Stage.cs" />
     <Compile Include="Models\Title.cs" />
