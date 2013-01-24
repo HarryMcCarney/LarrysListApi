@@ -41,6 +41,8 @@ namespace LarrysList.Models
         public List<Email> Email { get; set; }
         [XmlElement]
         public List<Company> Company { get; set; }
+        [XmlElement]
+        public List<Interest> Interest { get; set; }
 
 
     }
