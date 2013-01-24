@@ -29,5 +29,7 @@ namespace LarrysList
         public List<AddressSearchResult> AddressSearchResult { get; set; }
         [XmlElement]
         public Collectors Collectors { get; set; }
+        [XmlElement]
+        public Collection Collection { get; set; }
     }
 }

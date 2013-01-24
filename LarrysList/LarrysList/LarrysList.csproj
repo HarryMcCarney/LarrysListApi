@@ -111,6 +111,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Auth\AuthClient.cs" />
+    <Compile Include="Controllers\Admin\CollectionController.cs" />
     <Compile Include="Controllers\Admin\CollectorController.cs" />
     <Compile Include="Controllers\Admin\SearchController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
@@ -122,6 +123,7 @@
     <Compile Include="Models\AddressSearch.cs" />
     <Compile Include="Models\AddressSearchResult.cs" />
     <Compile Include="Models\City.cs" />
+    <Compile Include="Models\Collection.cs" />
     <Compile Include="Models\Collector.cs" />
     <Compile Include="Models\Collectors.cs" />
     <Compile Include="Models\CollectorSearch.cs" />
@@ -129,9 +131,11 @@
     <Compile Include="Models\Config.cs" />
     <Compile Include="Models\Country.cs" />
     <Compile Include="Models\Email.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\Global.cs" />
     <Compile Include="Models\Industry.cs" />
     <Compile Include="Models\Interest.cs" />
+    <Compile Include="Models\Medium.cs" />
     <Compile Include="Models\Nationality.cs" />
     <Compile Include="Models\Network.cs" />
     <Compile Include="Models\Position.cs" />
