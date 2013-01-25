@@ -24,5 +24,9 @@ namespace LarrysList.Models
         public string postCode { get; set; }
         [XmlElement]
         public City City { get; set; }
+        [XmlElement]
+        public Region Region { get; set; }
+        [XmlElement]
+        public Country Country { get; set; }
     }
 }
