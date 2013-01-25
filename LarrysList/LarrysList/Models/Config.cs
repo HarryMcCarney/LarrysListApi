@@ -19,5 +19,9 @@ namespace LarrysList.Models
         public List<Industry> Industry { get; set; }
        [XmlElement]
        public List<Interest> Interest { get; set; }
+       [XmlElement]
+       public List<Genre> Genre { get; set; }
+       [XmlElement]
+       public List<Medium> Medium { get; set; }
     }
 }
