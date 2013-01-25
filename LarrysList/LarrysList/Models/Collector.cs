@@ -43,6 +43,8 @@ namespace LarrysList.Models
         public List<Company> Company { get; set; }
         [XmlElement]
         public List<Interest> Interest { get; set; }
+        [XmlElement]
+        public List<Industry> Industry { get; set; }
 
         [XmlElement]
         public Collection Collection { get; set; }
