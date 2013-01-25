@@ -10,6 +10,8 @@ namespace LarrysList.Models
     public class Collection
     {
         [XmlAttribute]
+        public string id { get; set; }
+        [XmlAttribute]
         public string name { get; set; }
         [XmlAttribute]
         public string totalWorks { get; set; }

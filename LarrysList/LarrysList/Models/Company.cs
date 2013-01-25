@@ -15,8 +15,6 @@ namespace LarrysList.Models
         [XmlAttribute]
         public string url { get; set; }
         [XmlAttribute]
-        public string cityToken { get; set; }
-        [XmlAttribute]
         public string line1 { get; set; }
         [XmlAttribute]
         public string line2 { get; set; }
@@ -24,5 +22,7 @@ namespace LarrysList.Models
         public string line3 { get; set; }
         [XmlAttribute]
         public string postCode { get; set; }
+        [XmlElement]
+        public City City { get; set; }
     }
 }

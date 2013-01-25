@@ -23,5 +23,18 @@ namespace LarrysList.Controllers.Admin
             return formattedResult(result);
         }
 
+        public string basicEdit(Collector collector)
+        {
+            try
+            {
+                result = orm.execObject<Result>(collector, "api.admin_collection_base_edit");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
     }
 }
