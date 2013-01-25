@@ -36,5 +36,18 @@ namespace LarrysList.Controllers.Admin
             return formattedResult(result);
         }
 
+        public string artistEdit(Collector collector)
+        {
+            try
+            {
+                result = orm.execObject<Result>(collector, "api.admin_collection_artist_edit");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
     }
 }

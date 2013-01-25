@@ -31,5 +31,7 @@ namespace LarrysList.Models
         public List<Medium> Medium { get; set; }
         [XmlElement]
         public List<Region> Region { get; set; }
+        [XmlElement]
+        public List<Artist> Artist { get; set; }
     }
 }
