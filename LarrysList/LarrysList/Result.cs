@@ -31,5 +31,7 @@ namespace LarrysList
         public Collectors Collectors { get; set; }
         [XmlElement]
         public Collection Collection { get; set; }
+        [XmlElement]
+        public List<Artist> Artist { get; set; }
     }
 }

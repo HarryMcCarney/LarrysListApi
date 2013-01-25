@@ -35,6 +35,19 @@ namespace LarrysList.Controllers.Admin
             return formattedResult(result);
         }
 
+        public string artist(ArtistSearch search)
+        {
+            try
+            {
+                result = orm.execObject<Result>(search, "api.admin_artist_search");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
 
     }
 }
