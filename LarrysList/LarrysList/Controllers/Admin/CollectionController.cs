@@ -48,6 +48,18 @@ namespace LarrysList.Controllers.Admin
             }
             return formattedResult(result);
         }
+        public string communicationEdit(Collector collector)
+        {
+            try
+            {
+                result = orm.execObject<Result>(collector, "api.admin_collection_communication_edit");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
 
     }
 }

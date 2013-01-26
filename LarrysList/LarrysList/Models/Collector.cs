@@ -50,6 +50,7 @@ namespace LarrysList.Models
         public Collection Collection { get; set; }
 
 
+
     }
  
 }

@@ -141,6 +141,8 @@
     <Compile Include="Models\Nationality.cs" />
     <Compile Include="Models\Network.cs" />
     <Compile Include="Models\Position.cs" />
+    <Compile Include="Models\Publication.cs" />
+    <Compile Include="Models\Publisher.cs" />
     <Compile Include="Models\Region.cs" />
     <Compile Include="Models\Setting.cs" />
     <Compile Include="Models\Stage.cs" />

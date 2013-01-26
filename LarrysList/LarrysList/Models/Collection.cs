@@ -25,6 +25,8 @@ namespace LarrysList.Models
         public string foundation { get; set; }
         [XmlAttribute]
         public string started { get; set; }
+        [XmlAttribute]
+        public string url { get; set; }
         [XmlElement]
         public List<Genre> Genre { get; set; }
         [XmlElement]
@@ -33,5 +35,7 @@ namespace LarrysList.Models
         public List<Region> Region { get; set; }
         [XmlElement]
         public List<Artist> Artist { get; set; }
+        [XmlElement]
+        public List<Publication> Publication { get; set; }
     }
 }
