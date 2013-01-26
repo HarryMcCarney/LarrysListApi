@@ -50,6 +50,8 @@ namespace LarrysList.Models
 
         [XmlElement]
         public Collection Collection { get; set; }
+        [XmlElement]
+        public LinkedCollector LinkedCollector { get; set; }
 
 
 

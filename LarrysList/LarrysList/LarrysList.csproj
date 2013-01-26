@@ -137,6 +137,7 @@
     <Compile Include="Models\Global.cs" />
     <Compile Include="Models\Industry.cs" />
     <Compile Include="Models\Interest.cs" />
+    <Compile Include="Models\LinkedCollector.cs" />
     <Compile Include="Models\Medium.cs" />
     <Compile Include="Models\Nationality.cs" />
     <Compile Include="Models\Network.cs" />
