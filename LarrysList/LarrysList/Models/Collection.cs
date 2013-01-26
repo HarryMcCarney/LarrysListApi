@@ -16,11 +16,11 @@ namespace LarrysList.Models
         [XmlAttribute]
         public string totalWorks { get; set; }
         [XmlAttribute]
-        public string totalWorksAprx { get; set; }
+        public bool totalWorksAprx { get; set; }
         [XmlAttribute]
         public string totalArtists { get; set; }
         [XmlAttribute]
-        public string totalArtistsAprx { get; set; }
+        public bool totalArtistsAprx { get; set; }
         [XmlAttribute]
         public string foundation { get; set; }
         [XmlAttribute]
