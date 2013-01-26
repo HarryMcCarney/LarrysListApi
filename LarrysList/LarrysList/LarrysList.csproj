@@ -145,6 +145,8 @@
     <Compile Include="Models\Publisher.cs" />
     <Compile Include="Models\Region.cs" />
     <Compile Include="Models\Setting.cs" />
+    <Compile Include="Models\Source.cs" />
+    <Compile Include="Models\SourceType.cs" />
     <Compile Include="Models\Stage.cs" />
     <Compile Include="Models\Title.cs" />
     <Compile Include="Models\University.cs" />

@@ -25,5 +25,7 @@ namespace LarrysList.Models
        public List<Medium> Medium { get; set; }
        [XmlElement]
        public List<Publisher> Publisher { get; set; }
+       [XmlElement]
+       public List<SourceType> SourceType { get; set; }
     }
 }

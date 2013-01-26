@@ -79,6 +79,20 @@ namespace LarrysList.Controllers.Admin
             return formattedResult(result);
         }
 
+        [AuthClient]
+        public string sourceEdit(Collector collector)
+        {
+            try
+            {
+                result = orm.execObject<Result>(collector, "api.admin_source_edit");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
 
     }
 }
