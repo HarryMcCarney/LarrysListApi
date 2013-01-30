@@ -100,3 +100,157 @@ HARRY-PC 2013-01-30 17:14:28.1353 INFO /0.0.1/admin/collection/document Paramete
         }
     ]}
 }
+HARRY-PC 2013-01-30 18:16:08.4120 INFO /0.0.1/admin/collection/theme Parameter {
+    "id": "2",
+"collection":{"id":"3",
+    "theme": [
+        {
+           
+            "name": "ASDF"
+       
+        },
+        {
+           
+            "name": "Aborigini Art"
+            
+        }
+    ]}
+}
+HARRY-PC 2013-01-30 18:17:38.2103 INFO /0.0.1/admin/collection/theme Parameter {
+    "id": "2",
+"collection":{"id":"3",
+    "theme": [
+        {
+           
+            "name": "ASDF"
+       
+        },
+        {
+           
+            "name": "Aborigini Art"
+            
+        }
+    ]}
+}
+HARRY-PC 2013-01-30 18:26:19.0051 INFO /0.0.1/admin/search/theme Parameter {
+   "name":"a"
+}
+HARRY-PC 2013-01-30 18:45:51.3774 INFO /0.0.1/admin/search/theme Parameter {
+   "name":"a"
+}
+HARRY-PC 2013-01-30 18:45:55.9473 INFO /0.0.1/admin/search/theme Parameter {
+   "name":"a"
+}
+HARRY-PC 2013-01-30 18:45:56.0978 INFO /0.0.1/admin/search/theme Parameter {
+   "name":"a"
+}
+HARRY-PC 2013-01-30 18:46:13.8899 INFO /0.0.1/admin/search/theme Parameter {
+   "name":"a"
+}
+HARRY-PC 2013-01-30 18:47:49.4686 INFO /0.0.1/admin/search/theme Parameter {
+   "name":"a"
+}
+HARRY-PC 2013-01-30 18:47:51.3934 INFO /0.0.1/admin/search/theme Parameter {
+   "name":"a"
+}
+HARRY-PC 2013-01-30 18:49:55.7743 INFO /0.0.1/admin/search/theme Parameter {
+   "term":"a"
+}
+HARRY-PC 2013-01-30 20:08:07.9386 INFO /0.0.1/admin/collection/origin Parameter {
+    "id": "2",
+"collection":{"id":"3",
+    "orgin": [
+        {
+           
+            "name": "EU"
+       
+        },
+        {
+           
+            "name": "Lagos"
+            
+        }
+    ]}
+}
+HARRY-PC 2013-01-30 20:13:53.4059 INFO /0.0.1/admin/collection/origin Parameter {
+    "Collection": {
+        "id": "3",
+        "origin": [
+            {
+                "name": "eu"
+            },
+            {
+                "name": "sahara"
+            }
+        ]
+    }
+}
+HARRY-PC 2013-01-30 20:16:57.0602 INFO /0.0.1/admin/collection/origin Parameter {
+    "Collection": {
+        "id": "3",
+        "origin": [
+            {
+                "name": "eu"
+            },
+            {
+                "name": "sahara"
+            }
+        ]
+    }
+}
+HARRY-PC 2013-01-30 20:18:19.7464 INFO /0.0.1/admin/search/origin Parameter {"term":"a"}
+HARRY-PC 2013-01-30 20:18:26.4900 INFO /0.0.1/admin/search/origin Parameter {"term":"e"}
+HARRY-PC 2013-01-30 20:19:13.3447 INFO /0.0.1/admin/search/origin Parameter {"term":"e"}
+HARRY-PC 2013-01-30 20:20:39.8023 INFO /0.0.1/admin/collection/origin Parameter {
+    "Collection": {
+        "id": "3",
+        "origin": [
+            {
+                "name": "eu"
+            },
+            {
+                "name": "sahara"
+            }
+        ]
+    }
+}
+HARRY-PC 2013-01-30 20:20:55.0008 INFO /0.0.1/admin/collection/origin Parameter {
+    "Collection": {
+        "id": "3",
+        "origin": [
+            {
+                "name": "eu"
+            },
+            {
+                "name": "sahara"
+            }
+        ]
+    }
+}
+HARRY-PC 2013-01-30 20:21:34.0812 INFO /0.0.1/admin/collection/origin Parameter {
+    "Collection": {
+        "id": "3",
+        "origin": [
+            {
+                "name": "eu"
+            },
+            {
+                "name": "sahara"
+            }
+        ]
+    }
+}
+HARRY-PC 2013-01-30 20:21:42.4797 INFO /0.0.1/admin/collection/origin Parameter {
+    "Collection": {
+        "id": "3",
+        "origin": [
+            {
+                "name": "eu"
+            },
+            {
+                "name": "sahara"
+            }
+        ]
+    }
+}
+HARRY-PC 2013-01-30 20:21:56.7360 INFO /0.0.1/admin/search/origin Parameter {"term":"e"}

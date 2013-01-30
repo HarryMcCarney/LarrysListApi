@@ -73,5 +73,32 @@ namespace LarrysList.Controllers.Admin
             return formattedResult(result);
         }
 
+        [AuthClient]
+        public string theme(Collector collector)
+        {
+            try
+            {
+                result = orm.execObject<Result>(collector, "api.admin_collection_theme_edit");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+        [AuthClient]
+        public string origin(Collector collector)
+        {
+            try
+            {
+                result = orm.execObject<Result>(collector, "api.admin_collection_origin_edit");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
     }
 }

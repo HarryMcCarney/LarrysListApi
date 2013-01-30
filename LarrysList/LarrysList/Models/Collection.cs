@@ -39,5 +39,9 @@ namespace LarrysList.Models
         public List<Publication> Publication { get; set; }
         [XmlElement]
         public List<Document> Document { get; set; }
+        [XmlElement]
+        public List<Theme> Theme { get; set; }
+        [XmlElement]
+        public List<Origin> Origin { get; set; }
     }
 }

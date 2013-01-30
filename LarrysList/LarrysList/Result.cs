@@ -34,6 +34,12 @@ namespace LarrysList
         [XmlElement]
         public List<Artist> Artist { get; set; }
         [XmlElement]
+        public List<Theme> Theme     { get; set; }
+
+        [XmlElement]
+        public List<Origin> Origin { get; set; }
+
+        [XmlElement]
         public Feeder Feeder { get; set; }
         [XmlElement]
         public Document Upload { get; set; }

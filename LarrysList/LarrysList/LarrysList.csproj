@@ -144,6 +144,8 @@
     <Compile Include="Models\Medium.cs" />
     <Compile Include="Models\Nationality.cs" />
     <Compile Include="Models\Network.cs" />
+    <Compile Include="Models\Origin.cs" />
+    <Compile Include="Models\OriginSearch.cs" />
     <Compile Include="Models\Position.cs" />
     <Compile Include="Models\Publication.cs" />
     <Compile Include="Models\Publisher.cs" />
@@ -152,6 +154,8 @@
     <Compile Include="Models\Source.cs" />
     <Compile Include="Models\SourceType.cs" />
     <Compile Include="Models\Stage.cs" />
+    <Compile Include="Models\Theme.cs" />
+    <Compile Include="Models\ThemeSearch.cs" />
     <Compile Include="Models\Title.cs" />
     <Compile Include="Models\University.cs" />
     <Compile Include="Models\Document.cs" />

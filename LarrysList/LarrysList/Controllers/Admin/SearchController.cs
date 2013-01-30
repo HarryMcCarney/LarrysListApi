@@ -47,7 +47,30 @@ namespace LarrysList.Controllers.Admin
             }
             return formattedResult(result);
         }
+        public string theme(ThemeSearch search)
+        {
+            try
+            {
+                result = orm.execObject<Result>(search, "api.admin_theme_search");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
 
-
+        public string origin(OriginSearch origin)
+        {
+            try
+            {
+                result = orm.execObject<Result>(origin, "api.admin_origin_search");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
     }
 }
