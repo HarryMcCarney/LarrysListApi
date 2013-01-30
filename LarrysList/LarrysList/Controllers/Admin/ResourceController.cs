@@ -19,21 +19,30 @@ namespace LarrysList.Controllers.Admin
         [AuthClient]
         public string index(HttpPostedFileBase file)
         {
-            if (file.ContentLength > 0)
+            
+            try
             {
+                if (file.ContentLength > 0)
+                {
 
-                string extension = Path.GetExtension(file.FileName);
-                var fileName = Guid.NewGuid().ToString() + extension;
-                var path = Path.Combine(uploadPath, fileName);
-                file.SaveAs(path);
-                result.status = 0;
-                result.Upload = new Models.Upload() { file = fileName };
+                    string extension = Path.GetExtension(file.FileName);
+                    var fileName = Guid.NewGuid().ToString() + extension;
+                    var path = Path.Combine(uploadPath, fileName);
+                    file.SaveAs(path);
+                    result.status = 0;
+                    result.Upload = new Models.Upload() { file = fileName };
+                }
+                else
+                {
+                    result.status = 1;
+                    result.errorMessage = "Upload failed";
+                }
             }
-            else
+            catch (Exception exp)
             {
-                result.status = 1;
-                result.errorMessage = "Upload failed";
+                errorResult(exp);
             }
+
             return formattedResult(result);
         }
 
