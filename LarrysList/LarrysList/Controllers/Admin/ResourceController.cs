@@ -6,7 +6,7 @@ using LarrysList.Controllers;
 using LarrysList.Services.GlobalConfig;
 
 
-namespace LarrysList.Services.Upload
+namespace LarrysList.Controllers.Admin
 {
     public class ResourcesController : BaseController
     {
