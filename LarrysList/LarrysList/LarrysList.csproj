@@ -154,7 +154,7 @@
     <Compile Include="Models\Stage.cs" />
     <Compile Include="Models\Title.cs" />
     <Compile Include="Models\University.cs" />
-    <Compile Include="Models\Upload.cs" />
+    <Compile Include="Models\Document.cs" />
     <Compile Include="Models\Workflow.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Result.cs" />

@@ -92,7 +92,19 @@ namespace LarrysList.Controllers.Admin
             }
             return formattedResult(result);
         }
-
+        [AuthClient]
+        public string document(Collector collector)
+        {
+            try
+            {
+                result = orm.execObject<Result>(collector, "api.admin_collector_document_assign");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
 
     }
 }

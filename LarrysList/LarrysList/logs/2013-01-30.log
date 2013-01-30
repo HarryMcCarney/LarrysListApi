@@ -1,0 +1,50 @@
+HARRY-PC 2013-01-30 16:55:23.8860 INFO /0.0.1/admin/collector/document Parameter {
+    "id": "2",
+    "Document": [
+        {
+            "file": "asdf.jpg",
+            "name": "ASDF",
+            "type": "IMAGE"
+        },
+        {
+            "file": "as123df.jpg",
+            "name": "AS123DF",
+            "type": "IMAGE"
+        },
+        {
+            "file": "asdasdf.jpg",
+            "name": "ASasdDF",
+            "type": "IMAGE"
+        },
+        {
+            "file": "asdf.jpg",
+            "name": "ASDF",
+            "type": "OTHER"
+        }
+    ]
+}
+HARRY-PC 2013-01-30 16:56:14.2765 INFO /0.0.1/admin/collector/document Parameter {
+    "id": "2",
+    "Document": [
+        {
+            "file": "asdf.jpg",
+            "name": "ASDF",
+            "type": "IMAGE"
+        },
+        {
+            "file": "as123df.jpg",
+            "name": "AS123DF",
+            "type": "IMAGE"
+        },
+        {
+            "file": "asdasdf.jpg",
+            "name": "ASasdDF",
+            "type": "IMAGE"
+        },
+        {
+            "file": "asdf.jpg",
+            "name": "ASDF",
+            "type": "OTHER"
+        }
+    ]
+}

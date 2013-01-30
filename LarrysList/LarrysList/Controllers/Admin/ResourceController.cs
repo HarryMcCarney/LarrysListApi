@@ -3,6 +3,7 @@ using System.IO;
 using System.Web;
 using LarrysList.Auth;
 using LarrysList.Controllers;
+using LarrysList.Models;
 using LarrysList.Services.GlobalConfig;
 
 
@@ -30,7 +31,7 @@ namespace LarrysList.Controllers.Admin
                     var path = Path.Combine(uploadPath, fileName);
                     file.SaveAs(path);
                     result.status = 0;
-                    result.Upload = new Models.Upload() { file = fileName };
+                    result.Upload = new Models.Document() { file = fileName };
                 }
                 else
                 {
@@ -45,7 +46,7 @@ namespace LarrysList.Controllers.Admin
 
             return formattedResult(result);
         }
-
+       
         
     }
 }

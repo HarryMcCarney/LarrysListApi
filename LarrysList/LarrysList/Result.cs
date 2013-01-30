@@ -36,6 +36,6 @@ namespace LarrysList
         [XmlElement]
         public Feeder Feeder { get; set; }
         [XmlElement]
-        public Upload Upload { get; set; }
+        public Document Upload { get; set; }
     }
 }

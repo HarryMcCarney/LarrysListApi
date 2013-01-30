@@ -7,9 +7,13 @@ using System.Xml.Serialization;
 namespace LarrysList.Models
 {
     [Serializable]
-    public class Upload
+    public class Document
     {
         [XmlAttribute]
         public string file { get; set; }
+        [XmlAttribute]
+        public string name { get; set; }
+        [XmlAttribute]
+        public string type { get; set; }
     }
 }

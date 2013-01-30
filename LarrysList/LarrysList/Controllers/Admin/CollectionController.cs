@@ -1,4 +1,5 @@
 ﻿using System;
+using LarrysList.Auth;
 using LarrysList.Models;
 
 namespace LarrysList.Controllers.Admin
@@ -49,6 +50,21 @@ namespace LarrysList.Controllers.Admin
             try
             {
                 result = orm.execObject<Result>(collector, "api.admin_collection_communication_edit");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
+
+        [AuthClient]
+        public string document(Collector collector)
+        {
+            try
+            {
+                result = orm.execObject<Result>(collector, "api.admin_collection_document_assign");
             }
             catch (Exception exp)
             {

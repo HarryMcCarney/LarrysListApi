@@ -37,5 +37,7 @@ namespace LarrysList.Models
         public List<Artist> Artist { get; set; }
         [XmlElement]
         public List<Publication> Publication { get; set; }
+        [XmlElement]
+        public List<Document> Document { get; set; }
     }
 }
