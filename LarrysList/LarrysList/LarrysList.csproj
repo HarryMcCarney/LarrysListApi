@@ -113,6 +113,7 @@
     <Compile Include="Auth\AuthClient.cs" />
     <Compile Include="Controllers\Admin\CollectionController.cs" />
     <Compile Include="Controllers\Admin\CollectorController.cs" />
+    <Compile Include="Controllers\Admin\FeederController.cs" />
     <Compile Include="Controllers\Admin\SearchController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\ConfigController.cs" />
@@ -133,11 +134,13 @@
     <Compile Include="Models\Config.cs" />
     <Compile Include="Models\Country.cs" />
     <Compile Include="Models\Email.cs" />
+    <Compile Include="Models\Feeder.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\Global.cs" />
     <Compile Include="Models\Industry.cs" />
     <Compile Include="Models\Interest.cs" />
     <Compile Include="Models\LinkedCollector.cs" />
+    <Compile Include="Models\LoginLink.cs" />
     <Compile Include="Models\Medium.cs" />
     <Compile Include="Models\Nationality.cs" />
     <Compile Include="Models\Network.cs" />
