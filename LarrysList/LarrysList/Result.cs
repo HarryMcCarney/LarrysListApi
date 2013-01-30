@@ -35,5 +35,7 @@ namespace LarrysList
         public List<Artist> Artist { get; set; }
         [XmlElement]
         public Feeder Feeder { get; set; }
+        [XmlElement]
+        public Upload Upload { get; set; }
     }
 }
