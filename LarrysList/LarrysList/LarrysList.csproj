@@ -135,6 +135,7 @@
     <Compile Include="Models\Country.cs" />
     <Compile Include="Models\Email.cs" />
     <Compile Include="Models\Feeder.cs" />
+    <Compile Include="Models\Feeders.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\Global.cs" />
     <Compile Include="Models\Industry.cs" />

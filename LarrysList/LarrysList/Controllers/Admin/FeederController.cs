@@ -121,7 +121,19 @@ namespace LarrysList.Controllers.Admin
             }
             return formattedResult(result);
         }
-
+        [AuthClient]
+        public string list()
+        {
+            try
+            {
+                result = orm.execObject<Result>(null, "api.admin_feeder_list");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
 
     }
 }

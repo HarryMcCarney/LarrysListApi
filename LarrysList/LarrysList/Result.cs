@@ -38,6 +38,8 @@ namespace LarrysList
 
         [XmlElement]
         public List<Origin> Origin { get; set; }
+        [XmlElement]
+        public Feeders Feeders { get; set; }
 
         [XmlElement]
         public Feeder Feeder { get; set; }
