@@ -115,6 +115,7 @@
     <Compile Include="Controllers\Admin\CollectorController.cs" />
     <Compile Include="Controllers\Admin\FeederController.cs" />
     <Compile Include="Controllers\Admin\SearchController.cs" />
+    <Compile Include="Controllers\ArtistController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\ConfigController.cs" />
     <Compile Include="Global.asax.cs">

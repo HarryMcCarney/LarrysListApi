@@ -11,5 +11,7 @@ namespace LarrysList.Models
     {
         [XmlAttribute]
         public string name { get; set; }
+        [XmlAttribute]
+        public string yob { get; set; }
     }
 }
