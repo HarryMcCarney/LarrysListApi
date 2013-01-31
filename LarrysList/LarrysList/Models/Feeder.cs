@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Xml.Serialization;
 
 namespace LarrysList.Models
@@ -20,5 +21,7 @@ namespace LarrysList.Models
         public string email { get; set; }
         [XmlAttribute]
         public string pwd { get; set; }
+        [XmlElement]
+        public List<Country> Country { get; set; }
     }
 }

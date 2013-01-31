@@ -15,5 +15,7 @@ namespace LarrysList.Models
         public string type { get; set; }
         [XmlAttribute]
         public string filter { get; set; }
+        [XmlAttribute]
+        public string filterType { get; set; }
     }
 }
