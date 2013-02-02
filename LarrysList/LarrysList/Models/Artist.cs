@@ -9,6 +9,9 @@ namespace LarrysList.Models
     [Serializable]
     public class Artist
     {
+
+        [XmlAttribute]
+        public string id { get; set; }
         [XmlAttribute]
         public string name { get; set; }
         [XmlAttribute]
