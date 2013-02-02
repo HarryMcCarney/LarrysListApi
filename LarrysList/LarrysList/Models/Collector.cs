@@ -54,6 +54,10 @@ namespace LarrysList.Models
         [XmlElement]
         public List<Fact> Fact { get; set; }
         [XmlElement]
+        public List<Museum> Museum { get; set; }
+        [XmlElement]
+        public List<Director> Director { get; set; }
+        [XmlElement]
         public LinkedCollector LinkedCollector { get; set; }
 
 
