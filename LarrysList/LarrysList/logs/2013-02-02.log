@@ -1,0 +1,227 @@
+HARRY-PC 2013-02-02 17:14:52.0297 INFO /0.0.1/admin/artist/artwork Parameter {
+    "id": "3",
+    "artist": [
+        {
+            "id": "31",
+            "artwork": {
+                "title": "asdf",
+                "year": "1979",
+                "measurement": "IMPERIAL",
+                "depth": "12",
+                "height": "21",
+                "width": "123",
+                "material": "Bronze"
+            }
+        }
+    ]
+}
+HARRY-PC 2013-02-02 17:15:56.5104 INFO /0.0.1/admin/artist/artwork Parameter {
+    "id": "3",
+    "artist": [
+        {
+            "id": "31",
+            "artwork": {
+                "title": "asdf",
+                "year": "1979",
+                "measurement": "IMPERIAL",
+                "depth": "12",
+                "height": "21",
+                "width": "123",
+                "material": "Bronze"
+            }
+        }
+    ]
+}
+HARRY-PC 2013-02-02 17:16:49.3906 INFO /0.0.1/admin/artist/artwork Parameter {
+    "id": "3",
+    "artist": [
+        {
+            "id": "31",
+            "artwork": [{
+                "title": "asdf",
+                "year": "1979",
+                "measurement": "IMPERIAL",
+                "depth": "12",
+                "height": "21",
+                "width": "123",
+                "material": "Bronze"
+            }]
+        }
+    ]
+}
+HARRY-PC 2013-02-02 17:16:57.2838 INFO /0.0.1/admin/artist/artwork Parameter {
+    "id": "3",
+    "artist": [
+        {
+            "id": "31",
+            "artwork": [{
+                "title": "asdf",
+                "year": "1979",
+                "measurement": "IMPERIAL",
+                "depth": "12",
+                "height": "21",
+                "width": "123",
+                "material": "Bronze"
+            }]
+        }
+    ]
+}
+HARRY-PC 2013-02-02 17:17:31.6426 INFO /0.0.1/admin/artist/artwork Parameter {
+    "id": "3",
+    "artist": [
+        {
+            "id": "31",
+            "artwork": [{
+                "title": "asdf",
+                "year": "1979",
+                "measurement": "IMPERIAL",
+                "depth": "12",
+                "height": "21",
+                "width": "123",
+                "material": "Bronze"
+            }]
+        }
+    ]
+}
+HARRY-PC 2013-02-02 17:17:46.9937 INFO /0.0.1/admin/artist/artwork Parameter {
+    "id": "3",
+    "artist": [
+        {
+            "id": "31",
+            "artwork": [{
+                "title": "asdf",
+                "year": "1979",
+                "measurement": "IMPERIAL",
+                "depth": "12",
+                "height": "21",
+                "width": "123",
+                "material": "Bronze"
+            }]
+        }
+    ]
+}
+HARRY-PC 2013-02-02 17:18:00.3240 INFO /0.0.1/admin/artist/artwork Parameter {
+    "id": "3",
+    "artist": [
+        {
+            "id": "31",
+            "artwork": [{
+                "title": "asdf",
+                "year": "1979",
+                "measurement": "IMPERIAL",
+                "depth": "12",
+                "height": "21",
+                "width": "123",
+                "material": "Bronze"
+            }]
+        }
+    ]
+}
+HARRY-PC 2013-02-02 17:18:05.1313 INFO /0.0.1/admin/artist/artwork Parameter {
+    "id": "3",
+    "artist": [
+        {
+            "id": "31",
+            "artwork": [{
+                "title": "asdf",
+                "year": "1979",
+                "measurement": "IMPERIAL",
+                "depth": "12",
+                "height": "21",
+                "width": "123",
+                "material": "Bronze"
+            }]
+        }
+    ]
+}
+HARRY-PC 2013-02-02 17:18:49.1180 INFO /0.0.1/admin/artist/artwork Parameter {
+    "id": "3",
+    "artist": [
+        {
+            "id": "31",
+            "artwork": [{
+                "title": "asdf",
+                "year": "1979",
+                "measurement": "IMPERIAL",
+                "depth": "12",
+                "height": "21",
+                "width": "123",
+                "material": "Bronze"
+            }]
+        }
+    ]
+}
+HARRY-PC 2013-02-02 17:19:45.5705 INFO /0.0.1/admin/artist/artwork Parameter {
+    "id": "3",
+    "artist": [
+        {
+            "id": "31",
+            "artwork": [{
+                "title": "asdf",
+                "year": "1979",
+                "measurement": "IMPERIAL",
+                "depth": "12",
+                "height": "21",
+                "width": "123",
+                "material": "Bronze"
+            }]
+        }
+    ]
+}
+HARRY-PC 2013-02-02 17:26:56.8035 INFO /0.0.1/admin/artist/artwork Parameter {
+    "id": "3",
+    "artist": [
+        {
+            "id": "31",
+            "artwork": [{
+                "title": "asdf",
+                "year": "1979",
+                "measurement": "IMPERIAL",
+                "depth": "12",
+                "height": "21",
+                "width": "123",
+                "material": "Bronze",
+"reassign":"false"
+            }]
+        }
+    ]
+}
+HARRY-PC 2013-02-02 17:27:05.2166 INFO /0.0.1/admin/artist/artwork Parameter {
+    "id": "3",
+    "artist": [
+        {
+            "id": "31",
+            "artwork": [{
+                "title": "asdf",
+                "year": "1979",
+                "measurement": "IMPERIAL",
+                "depth": "12",
+                "height": "21",
+                "width": "123",
+                "material": "Bronze",
+"reassign":"true"
+            }]
+        }
+    ]
+}
+HARRY-PC 2013-02-02 18:24:21.0328 INFO /0.0.1/admin/collector/fact Parameter {
+    "id": "3",
+    "fact": [
+        {  "value": "asdfasdfas"},
+{  "value": "asdfasdfas"}
+    ]
+}
+HARRY-PC 2013-02-02 18:24:36.2422 INFO /0.0.1/admin/collector/fact Parameter {
+    "id": "3",
+    "fact": [
+        {  "value": "asdfasdfas"},
+{  "value": "asdasdfasdfas"}
+    ]
+}
+HARRY-PC 2013-02-02 18:24:38.2164 INFO /0.0.1/admin/collector/fact Parameter {
+    "id": "3",
+    "fact": [
+        {  "value": "asdfasdfas"},
+{  "value": "asdasdfasdfas"}
+    ]
+}

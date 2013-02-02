@@ -126,6 +126,7 @@
     <Compile Include="Models\AddressSearchResult.cs" />
     <Compile Include="Models\Artist.cs" />
     <Compile Include="Models\ArtistSearch.cs" />
+    <Compile Include="Models\ArtWork.cs" />
     <Compile Include="Models\City.cs" />
     <Compile Include="Models\Collection.cs" />
     <Compile Include="Models\Collector.cs" />
@@ -135,6 +136,7 @@
     <Compile Include="Models\Config.cs" />
     <Compile Include="Models\Country.cs" />
     <Compile Include="Models\Email.cs" />
+    <Compile Include="Models\Fact.cs" />
     <Compile Include="Models\Feeder.cs" />
     <Compile Include="Models\Feeders.cs" />
     <Compile Include="Models\Genre.cs" />

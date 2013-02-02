@@ -23,5 +23,20 @@ namespace LarrysList.Controllers
             return formattedResult(result);
         }
 
+
+        public string artwork(Collection collection)
+        {
+            try
+            {
+                result = orm.execObject<Result>(collection, "api.admin_artwork_create");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
+
     }
 }
