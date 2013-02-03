@@ -508,3 +508,18 @@ HARRY-PC 2013-02-03 14:13:34.2255 ERROR Newtonsoft.Json.JsonReaderException: Err
    at Newtonsoft.Json.Linq.JObject.Parse(String json)
    at LarrysList.Controllers.Admin.CollectionController.meta() in c:\LarrysList\code\LarrysList\LarrysList\Controllers\Admin\CollectionController.cs:line 131|||
 HARRY-PC 2013-02-03 14:14:35.3287 INFO /0.0.1/admin/collection/meta Parameter 
+HARRY-PC 2013-02-03 15:02:30.2581 INFO /0.0.1/admin/collection/meta Parameter 
+HARRY-PC 2013-02-03 15:02:30.3572 ERROR Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Path '', line 0, position 0.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at LarrysList.Controllers.Admin.CollectionController.meta() in c:\LarrysList\code\LarrysList\LarrysList\Controllers\Admin\CollectionController.cs:line 135|||
+HARRY-PC 2013-02-03 15:02:47.2283 INFO /0.0.1/admin/collection/meta Parameter 
+HARRY-PC 2013-02-03 15:02:47.3055 ERROR Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Path '', line 0, position 0.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at LarrysList.Controllers.Admin.CollectionController.meta() in c:\LarrysList\code\LarrysList\LarrysList\Controllers\Admin\CollectionController.cs:line 135|||
+HARRY-PC 2013-02-03 15:03:00.5155 INFO /0.0.1/admin/collection/meta Parameter 
+HARRY-PC 2013-02-03 15:03:16.1625 ERROR Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Path '', line 0, position 0.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at LarrysList.Controllers.Admin.CollectionController.meta() in c:\LarrysList\code\LarrysList\LarrysList\Controllers\Admin\CollectionController.cs:line 135|||
