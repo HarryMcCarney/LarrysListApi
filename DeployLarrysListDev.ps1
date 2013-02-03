@@ -19,7 +19,7 @@ copy-item c:\Hudson\jobs\LarrysList_Dev\workspace\LarrysList\LarrysList\nlog.con
 #deploy services 
 New-Item c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListServices -type directory
 New-Item c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListServices\MailQueue\ -type directory
-
+copy-item c:\hudson\jobs\LarrysList_Dev\workspace\LarrysList\MailQueue\bin\* c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListServices\MailQueue\ -recurse
 
 #start sites and services 
 Start-WebSite 'LarrysList_Dev_Api'
