@@ -7,7 +7,7 @@ Stop-Service LarrysListMailQueue | Out-Null
 
 
 #delete everything 
-Remove-item c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListApi -recurse
+Remove-item c:\inetpub\wwwroot\LarrysList\LarrysList_Dev -recurse
 
 
 #deploy api
