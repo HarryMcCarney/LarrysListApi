@@ -12,6 +12,8 @@ namespace LarrysList.Models
         [XmlAttribute]
         public string id { get; set; }
         [XmlAttribute]
+        public string status { get; set; }
+        [XmlAttribute]
         public string firstName { get; set; }
         [XmlAttribute]
         public string lastName { get; set; }
