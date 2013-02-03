@@ -142,7 +142,9 @@ namespace LarrysList.Controllers.Admin
             try
             {
                 var jsonProc = new MSSQLData();
-                result.json = JObject.Parse(jsonProc.execStoredProc("api.admin_collector_set_meta_json", JsonObjectId, jsonParam));
+                var jsonresult = jsonProc.execStoredProc("api.admin_collector_set_meta_json", JsonObjectId, jsonParam);
+                if (jsonresult != null)
+                    result.json = JObject.Parse(jsonresult);
                 result.procName = "api.admin_collector_set_meta_json";
                 result.status = 0;
 
@@ -161,7 +163,9 @@ namespace LarrysList.Controllers.Admin
             try
             {
                 var jsonProc = new MSSQLData();
-                result.json = JObject.Parse(jsonProc.execStoredProc("api.admin_collector_meta_json", JsonObjectId, null));
+                var jsonresult = jsonProc.execStoredProc("api.admin_collector_meta_json", JsonObjectId, null);
+                if (jsonresult != null)
+                    result.json = JObject.Parse(jsonresult);
                 result.procName = "api.admin_collector_meta_json";
                 result.status = 0;
 
