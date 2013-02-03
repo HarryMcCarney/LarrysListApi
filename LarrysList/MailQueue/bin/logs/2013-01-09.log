@@ -1,0 +1,513 @@
+HARRY-PC 2013-01-09 20:40:12.6057 INFO starting to process messages
+HARRY-PC 2013-01-09 20:40:12.6752 INFO getting messages from db
+HARRY-PC 2013-01-09 20:40:17.6018 INFO starting to process messages
+HARRY-PC 2013-01-09 20:40:17.6018 INFO getting messages from db
+HARRY-PC 2013-01-09 20:40:22.6108 INFO starting to process messages
+HARRY-PC 2013-01-09 20:40:22.6138 INFO getting messages from db
+HARRY-PC 2013-01-09 20:40:27.6114 INFO starting to process messages
+HARRY-PC 2013-01-09 20:40:27.6157 INFO getting messages from db
+HARRY-PC 2013-01-09 20:40:32.6123 INFO starting to process messages
+HARRY-PC 2013-01-09 20:40:32.6123 INFO getting messages from db
+HARRY-PC 2013-01-09 20:40:32.8495 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:40:33.3068 TRACE sending email jango
+HARRY-PC 2013-01-09 20:40:33.8950 WARN OK
+HARRY-PC 2013-01-09 20:40:33.8950 INFO messsage sent
+HARRY-PC 2013-01-09 20:40:34.1393 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:40:34.4065 TRACE sending email jango
+HARRY-PC 2013-01-09 20:40:34.9105 WARN OK
+HARRY-PC 2013-01-09 20:40:34.9105 INFO messsage sent
+HARRY-PC 2013-01-09 20:40:35.0376 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:40:35.3739 TRACE sending email jango
+HARRY-PC 2013-01-09 20:40:35.8920 WARN OK
+HARRY-PC 2013-01-09 20:40:35.8980 INFO messsage sent
+HARRY-PC 2013-01-09 20:40:36.0044 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:40:37.6132 INFO starting to process messages
+HARRY-PC 2013-01-09 20:40:37.6132 INFO getting messages from db
+HARRY-PC 2013-01-09 20:40:37.7437 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:40:42.6217 INFO starting to process messages
+HARRY-PC 2013-01-09 20:40:48.4574 INFO getting messages from db
+HARRY-PC 2013-01-09 20:40:49.0237 INFO starting to process messages
+HARRY-PC 2013-01-09 20:40:52.1871 ERROR 
+HARRY-PC 2013-01-09 20:40:52.1871 ERROR 
+HARRY-PC 2013-01-09 20:40:59.3520 INFO getting messages from db
+HARRY-PC 2013-01-09 20:41:50.7856 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:41:50.7856 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:41:51.0394 INFO starting to process messages
+HARRY-PC 2013-01-09 20:41:52.3462 INFO getting messages from db
+HARRY-PC 2013-01-09 20:41:52.4492 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:41:54.5187 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:41:56.0410 INFO starting to process messages
+HARRY-PC 2013-01-09 20:42:14.0962 INFO getting messages from db
+HARRY-PC 2013-01-09 20:42:14.0992 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:42:14.1482 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:42:14.5462 INFO starting to process messages
+HARRY-PC 2013-01-09 20:42:15.5735 INFO getting messages from db
+HARRY-PC 2013-01-09 20:42:15.6225 ERROR 
+HARRY-PC 2013-01-09 20:42:15.6225 ERROR 
+HARRY-PC 2013-01-09 20:42:15.6225 ERROR 
+HARRY-PC 2013-01-09 20:42:15.6575 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:42:16.9074 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:42:19.1332 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:42:19.5464 INFO starting to process messages
+HARRY-PC 2013-01-09 20:42:29.9851 INFO getting messages from db
+HARRY-PC 2013-01-09 20:42:30.0507 INFO starting to process messages
+HARRY-PC 2013-01-09 20:42:30.9206 INFO getting messages from db
+HARRY-PC 2013-01-09 20:42:30.9206 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:42:30.9576 ERROR 
+HARRY-PC 2013-01-09 20:42:30.9576 ERROR 
+HARRY-PC 2013-01-09 20:42:30.9576 ERROR 
+HARRY-PC 2013-01-09 20:42:31.0006 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:42:31.7673 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:42:34.0307 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:42:35.0528 INFO starting to process messages
+HARRY-PC 2013-01-09 20:42:40.0230 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:42:40.3335 INFO getting messages from db
+HARRY-PC 2013-01-09 20:42:48.3368 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:42:57.1269 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:43:00.1283 INFO starting to process messages
+HARRY-PC 2013-01-09 20:43:05.3878 ERROR 
+HARRY-PC 2013-01-09 20:44:25.6152 ERROR 
+HARRY-PC 2013-01-09 20:44:25.6152 INFO getting messages from db
+HARRY-PC 2013-01-09 20:44:25.6403 ERROR 
+HARRY-PC 2013-01-09 20:44:25.6403 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:44:25.6922 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:44:26.0761 INFO starting to process messages
+HARRY-PC 2013-01-09 20:44:26.0761 ERROR 
+HARRY-PC 2013-01-09 20:44:45.5666 INFO getting messages from db
+HARRY-PC 2013-01-09 20:44:47.6301 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:44:52.0450 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:44:52.0590 INFO starting to process messages
+HARRY-PC 2013-01-09 20:44:53.8925 ERROR 
+HARRY-PC 2013-01-09 20:44:54.6704 ERROR 
+HARRY-PC 2013-01-09 20:44:55.1998 INFO getting messages from db
+HARRY-PC 2013-01-09 20:44:58.6873 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:45:13.1802 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:45:49.0565 INFO starting to process messages
+HARRY-PC 2013-01-09 20:45:51.0393 ERROR 
+HARRY-PC 2013-01-09 20:45:54.6864 INFO getting messages from db
+HARRY-PC 2013-01-09 20:45:54.6864 INFO starting to process messages
+HARRY-PC 2013-01-09 20:45:56.1254 INFO getting messages from db
+HARRY-PC 2013-01-09 20:45:56.1254 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:45:59.7274 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:46:07.4364 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:46:08.5589 INFO starting to process messages
+HARRY-PC 2013-01-09 20:46:10.4566 INFO getting messages from db
+HARRY-PC 2013-01-09 20:46:10.4787 ERROR 
+HARRY-PC 2013-01-09 20:46:10.5227 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:46:12.0842 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:46:13.5601 INFO starting to process messages
+HARRY-PC 2013-01-09 20:46:15.2232 INFO getting messages from db
+HARRY-PC 2013-01-09 20:46:15.2812 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:46:18.7384 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:46:19.5655 INFO starting to process messages
+HARRY-PC 2013-01-09 20:46:30.6726 INFO getting messages from db
+HARRY-PC 2013-01-09 20:46:30.6986 ERROR 
+HARRY-PC 2013-01-09 20:46:30.6986 ERROR 
+HARRY-PC 2013-01-09 20:46:30.7496 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:46:31.0720 INFO starting to process messages
+HARRY-PC 2013-01-09 20:46:31.0990 INFO getting messages from db
+HARRY-PC 2013-01-09 20:46:31.1543 ERROR 
+HARRY-PC 2013-01-09 20:46:31.1543 ERROR 
+HARRY-PC 2013-01-09 20:46:31.1543 ERROR 
+HARRY-PC 2013-01-09 20:46:31.1861 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:46:31.5516 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:46:33.8102 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:46:35.9631 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:46:36.0723 INFO starting to process messages
+HARRY-PC 2013-01-09 20:46:36.0723 INFO getting messages from db
+HARRY-PC 2013-01-09 20:46:36.1259 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:46:38.0871 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:46:39.8702 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:46:41.7594 INFO starting to process messages
+HARRY-PC 2013-01-09 20:46:41.7723 INFO getting messages from db
+HARRY-PC 2013-01-09 20:46:41.8013 ERROR 
+HARRY-PC 2013-01-09 20:46:41.8013 ERROR 
+HARRY-PC 2013-01-09 20:46:41.8426 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:46:41.9127 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:46:44.0625 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:46:46.2031 ERROR 
+HARRY-PC 2013-01-09 20:46:46.2485 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:46:46.7732 INFO starting to process messages
+HARRY-PC 2013-01-09 20:46:46.7732 INFO getting messages from db
+HARRY-PC 2013-01-09 20:46:46.8758 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:46:48.1707 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:46:49.1793 ERROR 
+HARRY-PC 2013-01-09 20:46:50.3806 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:46:51.7857 INFO starting to process messages
+HARRY-PC 2013-01-09 20:46:51.7857 INFO getting messages from db
+HARRY-PC 2013-01-09 20:46:51.8890 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:46:52.3965 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:46:52.8616 ERROR 
+HARRY-PC 2013-01-09 20:46:52.8616 ERROR 
+HARRY-PC 2013-01-09 20:46:54.5410 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:46:56.3173 ERROR 
+HARRY-PC 2013-01-09 20:46:56.3173 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:46:56.7861 INFO starting to process messages
+HARRY-PC 2013-01-09 20:46:56.7861 INFO getting messages from db
+HARRY-PC 2013-01-09 20:46:56.9037 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:46:57.8150 ERROR 
+HARRY-PC 2013-01-09 20:46:58.5233 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:47:00.4538 ERROR 
+HARRY-PC 2013-01-09 20:47:01.1920 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:47:01.7866 INFO starting to process messages
+HARRY-PC 2013-01-09 20:47:01.7866 INFO getting messages from db
+HARRY-PC 2013-01-09 20:47:01.9274 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:47:02.4646 ERROR 
+HARRY-PC 2013-01-09 20:47:03.1434 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:47:04.5704 ERROR 
+HARRY-PC 2013-01-09 20:47:05.2760 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:47:06.7877 INFO starting to process messages
+HARRY-PC 2013-01-09 20:47:06.7877 INFO getting messages from db
+HARRY-PC 2013-01-09 20:47:06.8944 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:47:07.4372 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:47:07.8408 ERROR 
+HARRY-PC 2013-01-09 20:47:09.6004 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:47:11.2542 ERROR 
+HARRY-PC 2013-01-09 20:47:11.7883 INFO starting to process messages
+HARRY-PC 2013-01-09 20:47:11.7883 INFO getting messages from db
+HARRY-PC 2013-01-09 20:47:11.8948 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:47:11.9452 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:47:12.7276 ERROR 
+HARRY-PC 2013-01-09 20:47:13.1764 ERROR 
+HARRY-PC 2013-01-09 20:47:16.8043 INFO starting to process messages
+HARRY-PC 2013-01-09 20:47:16.8043 INFO getting messages from db
+HARRY-PC 2013-01-09 20:47:16.9055 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:47:17.6530 ERROR 
+HARRY-PC 2013-01-09 20:47:17.6530 ERROR 
+HARRY-PC 2013-01-09 20:47:19.0996 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:47:20.9677 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:47:21.8194 INFO starting to process messages
+HARRY-PC 2013-01-09 20:47:21.8194 INFO getting messages from db
+HARRY-PC 2013-01-09 20:47:21.9164 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:47:22.8722 ERROR 
+HARRY-PC 2013-01-09 20:47:23.3688 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:47:25.2818 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:47:26.8207 INFO starting to process messages
+HARRY-PC 2013-01-09 20:47:26.8207 INFO getting messages from db
+HARRY-PC 2013-01-09 20:47:26.8885 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:47:27.1391 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 20:47:27.8410 ERROR 
+HARRY-PC 2013-01-09 20:47:28.9696 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:47:29.1812 ERROR 
+HARRY-PC 2013-01-09 20:47:30.9749 ERROR The operation has timed out
+HARRY-PC 2013-01-09 20:58:43.9095 INFO starting to process messages
+HARRY-PC 2013-01-09 20:58:43.9736 INFO getting messages from db
+HARRY-PC 2013-01-09 20:58:45.6496 ERROR 
+HARRY-PC 2013-01-09 20:58:47.9480 ERROR Specified value does not have a ':' separator.
+Parameter name: header
+HARRY-PC 2013-01-09 20:58:48.9152 INFO starting to process messages
+HARRY-PC 2013-01-09 20:58:48.9303 INFO getting messages from db
+HARRY-PC 2013-01-09 20:58:49.0223 ERROR 
+HARRY-PC 2013-01-09 20:58:50.0731 ERROR 
+HARRY-PC 2013-01-09 20:58:52.0345 ERROR Specified value does not have a ':' separator.
+Parameter name: header
+HARRY-PC 2013-01-09 20:58:53.9251 INFO starting to process messages
+HARRY-PC 2013-01-09 20:58:53.9421 INFO getting messages from db
+HARRY-PC 2013-01-09 20:58:54.0331 ERROR 
+HARRY-PC 2013-01-09 20:58:54.0702 ERROR Specified value does not have a ':' separator.
+Parameter name: header
+HARRY-PC 2013-01-09 20:58:56.1959 ERROR 
+HARRY-PC 2013-01-09 20:58:58.2351 ERROR Specified value does not have a ':' separator.
+Parameter name: header
+HARRY-PC 2013-01-09 20:58:58.9294 INFO starting to process messages
+HARRY-PC 2013-01-09 20:58:58.9294 INFO getting messages from db
+HARRY-PC 2013-01-09 20:59:50.5712 INFO starting to process messages
+HARRY-PC 2013-01-09 20:59:50.6482 INFO getting messages from db
+HARRY-PC 2013-01-09 21:00:00.6485 INFO starting to process messages
+HARRY-PC 2013-01-09 21:00:01.1370 INFO getting messages from db
+HARRY-PC 2013-01-09 21:00:12.8011 INFO starting to process messages
+HARRY-PC 2013-01-09 21:00:13.0958 INFO getting messages from db
+HARRY-PC 2013-01-09 21:00:13.8473 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:00:13.8473 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:00:18.7129 INFO starting to process messages
+HARRY-PC 2013-01-09 21:00:19.9065 INFO getting messages from db
+HARRY-PC 2013-01-09 21:00:28.9772 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:00:32.9085 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:00:33.7193 INFO starting to process messages
+HARRY-PC 2013-01-09 21:00:33.7243 INFO getting messages from db
+HARRY-PC 2013-01-09 21:00:35.6712 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:00:38.7196 INFO starting to process messages
+HARRY-PC 2013-01-09 21:00:38.7356 INFO getting messages from db
+HARRY-PC 2013-01-09 21:00:57.8946 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:18.1115 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:22.0266 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:22.2076 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:22.6095 INFO starting to process messages
+HARRY-PC 2013-01-09 21:01:23.4926 INFO getting messages from db
+HARRY-PC 2013-01-09 21:01:23.4926 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:24.3622 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:31.2660 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:31.2660 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:32.2883 INFO starting to process messages
+HARRY-PC 2013-01-09 21:01:32.3073 INFO getting messages from db
+HARRY-PC 2013-01-09 21:01:36.4912 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:36.4912 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:36.4912 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:36.6132 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:36.6352 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:36.9559 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:36.9889 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:36.9889 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:37.2892 INFO starting to process messages
+HARRY-PC 2013-01-09 21:01:37.2892 INFO getting messages from db
+HARRY-PC 2013-01-09 21:01:37.4458 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:37.6269 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:37.9823 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:37.9823 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:40.0735 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:40.2761 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:40.3101 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:40.5966 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:40.9974 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:41.2246 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:41.2867 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:41.6036 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:42.1794 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:42.2914 INFO starting to process messages
+HARRY-PC 2013-01-09 21:01:42.2914 INFO getting messages from db
+HARRY-PC 2013-01-09 21:01:42.3765 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:42.3935 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:42.5736 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:42.6277 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:43.0715 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:43.3487 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:43.3487 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:43.6629 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:44.0676 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:44.3368 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:44.4559 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:44.7440 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:45.3976 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:45.6043 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:45.7461 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:45.7711 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:46.6336 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:46.8281 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:46.8611 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:47.1719 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:47.5636 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:47.8330 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:48.1865 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:48.2956 INFO starting to process messages
+HARRY-PC 2013-01-09 21:01:48.3016 INFO getting messages from db
+HARRY-PC 2013-01-09 21:01:48.5277 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:48.6028 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:48.6968 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:49.2611 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:49.2611 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:49.5766 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:51.1667 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:51.2996 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:51.8182 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:52.0187 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:52.0987 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:52.3469 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:53.1438 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:53.3263 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:53.4178 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:53.7327 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:54.3053 INFO starting to process messages
+HARRY-PC 2013-01-09 21:01:54.3184 INFO getting messages from db
+HARRY-PC 2013-01-09 21:01:54.6054 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:54.6385 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:54.9308 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:54.9308 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:55.9474 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:55.9614 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:56.2246 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:56.2246 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:57.2489 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:57.3968 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:57.6448 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:57.6648 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:58.5655 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:58.7388 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:58.9264 INFO messsage sent
+HARRY-PC 2013-01-09 21:01:59.3061 INFO starting to process messages
+HARRY-PC 2013-01-09 21:01:59.3351 INFO getting messages from db
+HARRY-PC 2013-01-09 21:01:59.3351 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:01:59.6667 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:00.0634 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:00.6989 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:01.0006 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:01.1657 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:01.3518 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:01.9275 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:02.2519 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:02.2943 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:02.6179 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:03.0494 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:03.3644 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:03.5570 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:03.7465 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:04.3073 INFO starting to process messages
+HARRY-PC 2013-01-09 21:02:04.3073 INFO getting messages from db
+HARRY-PC 2013-01-09 21:02:04.4744 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:04.6486 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:04.6486 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:04.8583 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:04.8583 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:05.9496 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:05.9627 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:06.2288 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:06.2509 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:06.8568 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:06.8568 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:07.1147 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:07.1357 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:07.9243 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:08.1190 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:08.2410 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:08.3647 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:09.3646 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:09.4800 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:09.6971 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:09.7299 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:10.3092 INFO starting to process messages
+HARRY-PC 2013-01-09 21:02:10.3092 INFO getting messages from db
+HARRY-PC 2013-01-09 21:02:10.4317 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:10.5108 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:10.5901 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:10.7641 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:10.7891 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:12.0250 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:12.1841 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:12.9173 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:13.1425 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:13.4247 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:13.7839 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:13.7839 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:14.1001 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:15.2209 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:15.2419 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:15.3095 INFO starting to process messages
+HARRY-PC 2013-01-09 21:02:15.3165 INFO getting messages from db
+HARRY-PC 2013-01-09 21:02:15.6171 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:15.6401 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:15.6401 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:16.3384 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:16.5992 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:17.3924 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:17.6345 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:17.9865 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:18.1115 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:18.4401 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:18.5360 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:18.7326 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:18.8854 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:19.2808 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:19.3563 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:19.3864 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:19.4464 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:19.8737 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:19.9487 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:20.0911 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:20.2051 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:20.4955 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:20.6164 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:20.7285 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:20.8106 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:21.1588 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:21.2034 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:21.2807 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:21.3135 INFO starting to process messages
+HARRY-PC 2013-01-09 21:02:21.3165 INFO getting messages from db
+HARRY-PC 2013-01-09 21:02:21.3625 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:21.3835 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:21.8613 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:21.8643 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:21.9884 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:22.0104 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:22.4745 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:22.5419 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:22.5900 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:22.6623 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:23.0659 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:23.1930 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:23.3184 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:23.4050 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:23.7146 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:23.7928 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:24.0897 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:24.1697 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:25.0695 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:25.1285 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:25.1796 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:25.7219 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:25.9755 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:26.3182 INFO starting to process messages
+HARRY-PC 2013-01-09 21:02:26.3182 INFO getting messages from db
+HARRY-PC 2013-01-09 21:02:26.3972 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:26.6094 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:27.1886 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:27.9439 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:28.9856 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:29.6871 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:29.8502 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:29.9930 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=123234tedf4@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~rootUrl~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~123234tedf4%40friendfund.com~http%3a%2f%2fdev.brnpls.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:02:30.2366 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:30.6503 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:30.9424 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:31.2729 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:31.3199 INFO starting to process messages
+HARRY-PC 2013-01-09 21:02:31.3199 INFO getting messages from db
+HARRY-PC 2013-01-09 21:02:31.5986 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:32.0093 INFO messsage sent
+HARRY-PC 2013-01-09 21:02:36.3209 INFO starting to process messages
+HARRY-PC 2013-01-09 21:02:36.3209 INFO getting messages from db
+HARRY-PC 2013-01-09 21:02:41.3342 INFO starting to process messages
+HARRY-PC 2013-01-09 21:02:41.3342 INFO getting messages from db
+HARRY-PC 2013-01-09 21:02:46.3352 INFO starting to process messages
+HARRY-PC 2013-01-09 21:02:46.3352 INFO getting messages from db
+HARRY-PC 2013-01-09 21:02:51.3361 INFO starting to process messages
+HARRY-PC 2013-01-09 21:02:51.3361 INFO getting messages from db
+HARRY-PC 2013-01-09 21:02:56.3464 INFO starting to process messages
+HARRY-PC 2013-01-09 21:02:56.3464 INFO getting messages from db
+HARRY-PC 2013-01-09 21:03:01.3476 INFO starting to process messages
+HARRY-PC 2013-01-09 21:03:01.3476 INFO getting messages from db
+HARRY-PC 2013-01-09 21:03:06.3481 INFO starting to process messages
+HARRY-PC 2013-01-09 21:03:06.3481 INFO getting messages from db
+HARRY-PC 2013-01-09 21:03:11.3492 INFO starting to process messages
+HARRY-PC 2013-01-09 21:03:11.3492 INFO getting messages from db
+HARRY-PC 2013-01-09 21:03:16.3497 INFO starting to process messages
+HARRY-PC 2013-01-09 21:03:16.3497 INFO getting messages from db
+HARRY-PC 2013-01-09 21:03:21.3504 INFO starting to process messages
+HARRY-PC 2013-01-09 21:03:21.3504 INFO getting messages from db
+HARRY-PC 2013-01-09 21:03:26.3645 INFO starting to process messages
+HARRY-PC 2013-01-09 21:03:26.3645 INFO getting messages from db
+HARRY-PC 2013-01-09 21:03:31.3648 INFO starting to process messages
+HARRY-PC 2013-01-09 21:03:31.3648 INFO getting messages from db
+HARRY-PC 2013-01-09 21:03:36.3650 INFO starting to process messages
+HARRY-PC 2013-01-09 21:03:36.3650 INFO getting messages from db
+HARRY-PC 2013-01-09 21:03:41.3782 INFO starting to process messages
+HARRY-PC 2013-01-09 21:03:41.3782 INFO getting messages from db
+HARRY-PC 2013-01-09 21:03:46.3787 INFO starting to process messages
+HARRY-PC 2013-01-09 21:03:46.3787 INFO getting messages from db
+HARRY-PC 2013-01-09 21:04:01.0193 INFO starting to process messages
+HARRY-PC 2013-01-09 21:04:01.0914 INFO getting messages from db
+HARRY-PC 2013-01-09 21:04:06.0178 INFO starting to process messages
+HARRY-PC 2013-01-09 21:04:06.0288 INFO getting messages from db
+HARRY-PC 2013-01-09 21:04:11.0191 INFO starting to process messages
+HARRY-PC 2013-01-09 21:04:11.0191 INFO getting messages from db
+HARRY-PC 2013-01-09 21:04:16.0200 INFO starting to process messages
+HARRY-PC 2013-01-09 21:04:16.0200 INFO getting messages from db
+HARRY-PC 2013-01-09 21:04:21.0204 INFO starting to process messages
+HARRY-PC 2013-01-09 21:04:21.0204 INFO getting messages from db
+HARRY-PC 2013-01-09 21:04:26.0205 INFO starting to process messages
+HARRY-PC 2013-01-09 21:04:26.0205 INFO getting messages from db
+HARRY-PC 2013-01-09 21:04:31.0215 INFO starting to process messages
+HARRY-PC 2013-01-09 21:04:31.0215 INFO getting messages from db
+HARRY-PC 2013-01-09 21:04:36.0217 INFO starting to process messages
+HARRY-PC 2013-01-09 21:04:36.0217 INFO getting messages from db
+HARRY-PC 2013-01-09 21:04:36.2040 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:05:57.8165 INFO starting to process messages
+HARRY-PC 2013-01-09 21:05:57.8695 INFO getting messages from db
+HARRY-PC 2013-01-09 21:05:59.4055 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:06:07.1890 INFO starting to process messages
+HARRY-PC 2013-01-09 21:06:09.2644 INFO getting messages from db
+HARRY-PC 2013-01-09 21:06:09.8710 INFO messsage sent
+HARRY-PC 2013-01-09 21:06:14.0578 INFO starting to process messages
+HARRY-PC 2013-01-09 21:06:14.0578 INFO getting messages from db
+HARRY-PC 2013-01-09 21:06:14.0578 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:06:14.2189 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=
+HARRY-PC 2013-01-09 21:06:14.3999 INFO built post string:: Username=BurnPlus&Password=Popov2010&CampaignID=278483832&ToEmailAddress=1234sdfg@friendfund.com&PersonalizationFields=template~type~jangoId~toEmail~invitorName&PersonalizationValues=InviteEmail~EMAIL~278483832~1234sdfg%40friendfund.com~Harry&PersonalizationColDelimiter=~&Options=

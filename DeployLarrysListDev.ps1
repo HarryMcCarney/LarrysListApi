@@ -16,8 +16,14 @@ copy-item c:\Hudson\jobs\LarrysList_Dev\workspace\LarrysList\LarrysList\web.conf
 copy-item c:\Hudson\jobs\LarrysList_Dev\workspace\LarrysList\LarrysList\global.asax c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListApi
 copy-item c:\Hudson\jobs\LarrysList_Dev\workspace\LarrysList\LarrysList\nlog.config c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListApi
 
+#deploy services 
+New-Item c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListServices -type directory
+New-Item c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListServices\MailQueue\ -type directory
+
+
 #start sites and services 
 Start-WebSite 'LarrysList_Dev_Api'
+Start-Service LarrysListMailQueue
 
 
 

@@ -1,0 +1,72 @@
+HARRY-PC 2013-01-07 21:22:11.5464 INFO starting to process messages
+HARRY-PC 2013-01-07 21:22:11.6813 INFO getting messages from db
+HARRY-PC 2013-01-07 21:22:13.3093 INFO posting to facebook target:100004979081968
+HARRY-PC 2013-01-07 21:22:13.4899 WARN http://dev.brnpls.com
+HARRY-PC 2013-01-07 21:22:16.9766 INFO starting to process messages
+HARRY-PC 2013-01-07 21:22:16.9766 INFO getting messages from db
+HARRY-PC 2013-01-07 21:22:17.0347 INFO posting to facebook target:100004979081968
+HARRY-PC 2013-01-07 21:22:17.0347 WARN http://dev.brnpls.com
+HARRY-PC 2013-01-07 21:22:42.2496 INFO starting to process messages
+HARRY-PC 2013-01-07 21:22:42.2496 INFO starting to process messages
+HARRY-PC 2013-01-07 21:22:42.2777 INFO getting messages from db
+HARRY-PC 2013-01-07 21:22:42.2777 INFO getting messages from db
+HARRY-PC 2013-01-07 21:22:42.2496 ERROR (OAuthException - #200) (#200) The user hasn't authorized the application to perform this action
+HARRY-PC 2013-01-07 21:22:42.3648 INFO posting to facebook target:100004979081968
+HARRY-PC 2013-01-07 21:22:42.3648 WARN http://dev.brnpls.com
+HARRY-PC 2013-01-07 21:22:42.3790 ERROR (OAuthException - #200) (#200) The user hasn't authorized the application to perform this action
+HARRY-PC 2013-01-07 21:22:43.2753 INFO posting to facebook target:100004979081968
+HARRY-PC 2013-01-07 21:22:43.2753 WARN http://dev.brnpls.com
+HARRY-PC 2013-01-07 21:22:44.0734 INFO starting to process messages
+HARRY-PC 2013-01-07 21:22:44.0734 INFO getting messages from db
+HARRY-PC 2013-01-07 21:22:44.8939 ERROR (OAuthException - #200) (#200) The user hasn't authorized the application to perform this action
+HARRY-PC 2013-01-07 21:22:45.0889 ERROR (OAuthException - #200) (#200) The user hasn't authorized the application to perform this action
+HARRY-PC 2013-01-07 21:22:49.0745 INFO starting to process messages
+HARRY-PC 2013-01-07 21:22:49.0745 INFO getting messages from db
+HARRY-PC 2013-01-07 21:22:54.0747 INFO starting to process messages
+HARRY-PC 2013-01-07 21:22:54.0747 INFO getting messages from db
+HARRY-PC 2013-01-07 21:22:59.0758 INFO starting to process messages
+HARRY-PC 2013-01-07 21:22:59.0808 INFO getting messages from db
+HARRY-PC 2013-01-07 21:23:04.0762 INFO starting to process messages
+HARRY-PC 2013-01-07 21:23:04.0812 INFO getting messages from db
+HARRY-PC 2013-01-07 21:23:09.0770 INFO starting to process messages
+HARRY-PC 2013-01-07 21:23:09.0820 INFO getting messages from db
+HARRY-PC 2013-01-07 21:23:14.0784 INFO starting to process messages
+HARRY-PC 2013-01-07 21:23:14.0784 INFO getting messages from db
+HARRY-PC 2013-01-07 21:23:19.0790 INFO starting to process messages
+HARRY-PC 2013-01-07 21:23:19.0800 INFO getting messages from db
+HARRY-PC 2013-01-07 21:23:24.0798 INFO starting to process messages
+HARRY-PC 2013-01-07 21:23:24.0798 INFO getting messages from db
+HARRY-PC 2013-01-07 21:23:29.0810 INFO starting to process messages
+HARRY-PC 2013-01-07 21:23:29.0810 INFO getting messages from db
+HARRY-PC 2013-01-07 21:23:34.0817 INFO starting to process messages
+HARRY-PC 2013-01-07 21:23:34.0817 INFO getting messages from db
+HARRY-PC 2013-01-07 21:23:39.0828 INFO starting to process messages
+HARRY-PC 2013-01-07 21:23:39.0828 INFO getting messages from db
+HARRY-PC 2013-01-07 21:23:44.0841 INFO starting to process messages
+HARRY-PC 2013-01-07 21:23:44.0841 INFO getting messages from db
+HARRY-PC 2013-01-07 21:23:49.0851 INFO starting to process messages
+HARRY-PC 2013-01-07 21:23:49.0851 INFO getting messages from db
+HARRY-PC 2013-01-07 21:23:54.0856 INFO starting to process messages
+HARRY-PC 2013-01-07 21:23:54.0856 INFO getting messages from db
+HARRY-PC 2013-01-07 21:23:59.0863 INFO starting to process messages
+HARRY-PC 2013-01-07 21:23:59.0863 INFO getting messages from db
+HARRY-PC 2013-01-07 21:24:04.0874 INFO starting to process messages
+HARRY-PC 2013-01-07 21:24:04.0874 INFO getting messages from db
+HARRY-PC 2013-01-07 21:24:09.0878 INFO starting to process messages
+HARRY-PC 2013-01-07 21:24:09.0878 INFO getting messages from db
+HARRY-PC 2013-01-07 21:24:14.0887 INFO starting to process messages
+HARRY-PC 2013-01-07 21:24:14.0887 INFO getting messages from db
+HARRY-PC 2013-01-07 21:24:19.0897 INFO starting to process messages
+HARRY-PC 2013-01-07 21:24:19.0957 INFO getting messages from db
+HARRY-PC 2013-01-07 21:24:24.0905 INFO starting to process messages
+HARRY-PC 2013-01-07 21:24:24.0964 INFO getting messages from db
+HARRY-PC 2013-01-07 21:24:29.0909 INFO starting to process messages
+HARRY-PC 2013-01-07 21:24:29.0969 INFO getting messages from db
+HARRY-PC 2013-01-07 21:24:34.0921 INFO starting to process messages
+HARRY-PC 2013-01-07 21:24:34.0980 INFO getting messages from db
+HARRY-PC 2013-01-07 21:24:39.0928 INFO starting to process messages
+HARRY-PC 2013-01-07 21:24:39.0988 INFO getting messages from db
+HARRY-PC 2013-01-07 21:24:44.0928 INFO starting to process messages
+HARRY-PC 2013-01-07 21:24:44.0989 INFO getting messages from db
+HARRY-PC 2013-01-07 21:24:49.0939 INFO starting to process messages
+HARRY-PC 2013-01-07 21:24:49.0959 INFO getting messages from db
