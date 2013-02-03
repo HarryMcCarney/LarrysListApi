@@ -12,6 +12,6 @@ namespace LarrysList.Models
         [XmlAttribute]
         public string name { get; set; }
         [XmlAttribute]
-        public string City { get; set; }
+        public string city { get; set; }
     }
 }
