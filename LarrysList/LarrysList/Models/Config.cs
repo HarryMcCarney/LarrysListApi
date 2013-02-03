@@ -29,5 +29,7 @@ namespace LarrysList.Models
        public List<SourceType> SourceType { get; set; }
        [XmlElement]
        public List<TopMuseum> TopMuseum { get; set; }
+       [XmlElement]
+       public List<Relation> Relation { get; set; }
      }
 }

@@ -530,3 +530,4 @@ HARRY-PC 2013-02-03 18:17:43.5992 INFO /0.0.1/admin/feeder/resendForgotPwd Param
 HARRY-PC 2013-02-03 18:20:10.4141 INFO /0.0.1/admin/feeder/resendForgotPwd Parameter {"email":"5235423@friendfund.com"}
 HARRY-PC 2013-02-03 18:38:53.9975 INFO /0.0.1/admin/config Parameter {"email":"5235423@friendfund.com"}
 HARRY-PC 2013-02-03 18:40:04.6964 INFO /0.0.1/admin/config Parameter {"email":"5235423@friendfund.com"}
+HARRY-PC 2013-02-03 18:42:51.2454 INFO /0.0.1/admin/config Parameter {"email":"5235423@friendfund.com"}
