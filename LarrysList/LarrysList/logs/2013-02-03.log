@@ -1,231 +1,4 @@
-HARRY-PC 2013-02-02 17:14:52.0297 INFO /0.0.1/admin/artist/artwork Parameter {
-    "id": "3",
-    "artist": [
-        {
-            "id": "31",
-            "artwork": {
-                "title": "asdf",
-                "year": "1979",
-                "measurement": "IMPERIAL",
-                "depth": "12",
-                "height": "21",
-                "width": "123",
-                "material": "Bronze"
-            }
-        }
-    ]
-}
-HARRY-PC 2013-02-02 17:15:56.5104 INFO /0.0.1/admin/artist/artwork Parameter {
-    "id": "3",
-    "artist": [
-        {
-            "id": "31",
-            "artwork": {
-                "title": "asdf",
-                "year": "1979",
-                "measurement": "IMPERIAL",
-                "depth": "12",
-                "height": "21",
-                "width": "123",
-                "material": "Bronze"
-            }
-        }
-    ]
-}
-HARRY-PC 2013-02-02 17:16:49.3906 INFO /0.0.1/admin/artist/artwork Parameter {
-    "id": "3",
-    "artist": [
-        {
-            "id": "31",
-            "artwork": [{
-                "title": "asdf",
-                "year": "1979",
-                "measurement": "IMPERIAL",
-                "depth": "12",
-                "height": "21",
-                "width": "123",
-                "material": "Bronze"
-            }]
-        }
-    ]
-}
-HARRY-PC 2013-02-02 17:16:57.2838 INFO /0.0.1/admin/artist/artwork Parameter {
-    "id": "3",
-    "artist": [
-        {
-            "id": "31",
-            "artwork": [{
-                "title": "asdf",
-                "year": "1979",
-                "measurement": "IMPERIAL",
-                "depth": "12",
-                "height": "21",
-                "width": "123",
-                "material": "Bronze"
-            }]
-        }
-    ]
-}
-HARRY-PC 2013-02-02 17:17:31.6426 INFO /0.0.1/admin/artist/artwork Parameter {
-    "id": "3",
-    "artist": [
-        {
-            "id": "31",
-            "artwork": [{
-                "title": "asdf",
-                "year": "1979",
-                "measurement": "IMPERIAL",
-                "depth": "12",
-                "height": "21",
-                "width": "123",
-                "material": "Bronze"
-            }]
-        }
-    ]
-}
-HARRY-PC 2013-02-02 17:17:46.9937 INFO /0.0.1/admin/artist/artwork Parameter {
-    "id": "3",
-    "artist": [
-        {
-            "id": "31",
-            "artwork": [{
-                "title": "asdf",
-                "year": "1979",
-                "measurement": "IMPERIAL",
-                "depth": "12",
-                "height": "21",
-                "width": "123",
-                "material": "Bronze"
-            }]
-        }
-    ]
-}
-HARRY-PC 2013-02-02 17:18:00.3240 INFO /0.0.1/admin/artist/artwork Parameter {
-    "id": "3",
-    "artist": [
-        {
-            "id": "31",
-            "artwork": [{
-                "title": "asdf",
-                "year": "1979",
-                "measurement": "IMPERIAL",
-                "depth": "12",
-                "height": "21",
-                "width": "123",
-                "material": "Bronze"
-            }]
-        }
-    ]
-}
-HARRY-PC 2013-02-02 17:18:05.1313 INFO /0.0.1/admin/artist/artwork Parameter {
-    "id": "3",
-    "artist": [
-        {
-            "id": "31",
-            "artwork": [{
-                "title": "asdf",
-                "year": "1979",
-                "measurement": "IMPERIAL",
-                "depth": "12",
-                "height": "21",
-                "width": "123",
-                "material": "Bronze"
-            }]
-        }
-    ]
-}
-HARRY-PC 2013-02-02 17:18:49.1180 INFO /0.0.1/admin/artist/artwork Parameter {
-    "id": "3",
-    "artist": [
-        {
-            "id": "31",
-            "artwork": [{
-                "title": "asdf",
-                "year": "1979",
-                "measurement": "IMPERIAL",
-                "depth": "12",
-                "height": "21",
-                "width": "123",
-                "material": "Bronze"
-            }]
-        }
-    ]
-}
-HARRY-PC 2013-02-02 17:19:45.5705 INFO /0.0.1/admin/artist/artwork Parameter {
-    "id": "3",
-    "artist": [
-        {
-            "id": "31",
-            "artwork": [{
-                "title": "asdf",
-                "year": "1979",
-                "measurement": "IMPERIAL",
-                "depth": "12",
-                "height": "21",
-                "width": "123",
-                "material": "Bronze"
-            }]
-        }
-    ]
-}
-HARRY-PC 2013-02-02 17:26:56.8035 INFO /0.0.1/admin/artist/artwork Parameter {
-    "id": "3",
-    "artist": [
-        {
-            "id": "31",
-            "artwork": [{
-                "title": "asdf",
-                "year": "1979",
-                "measurement": "IMPERIAL",
-                "depth": "12",
-                "height": "21",
-                "width": "123",
-                "material": "Bronze",
-"reassign":"false"
-            }]
-        }
-    ]
-}
-HARRY-PC 2013-02-02 17:27:05.2166 INFO /0.0.1/admin/artist/artwork Parameter {
-    "id": "3",
-    "artist": [
-        {
-            "id": "31",
-            "artwork": [{
-                "title": "asdf",
-                "year": "1979",
-                "measurement": "IMPERIAL",
-                "depth": "12",
-                "height": "21",
-                "width": "123",
-                "material": "Bronze",
-"reassign":"true"
-            }]
-        }
-    ]
-}
-HARRY-PC 2013-02-02 18:24:21.0328 INFO /0.0.1/admin/collector/fact Parameter {
-    "id": "3",
-    "fact": [
-        {  "value": "asdfasdfas"},
-{  "value": "asdfasdfas"}
-    ]
-}
-HARRY-PC 2013-02-02 18:24:36.2422 INFO /0.0.1/admin/collector/fact Parameter {
-    "id": "3",
-    "fact": [
-        {  "value": "asdfasdfas"},
-{  "value": "asdasdfasdfas"}
-    ]
-}
-HARRY-PC 2013-02-02 18:24:38.2164 INFO /0.0.1/admin/collector/fact Parameter {
-    "id": "3",
-    "fact": [
-        {  "value": "asdfasdfas"},
-{  "value": "asdasdfasdfas"}
-    ]
-}
-HARRY-PC 2013-02-02 21:14:52.5121 INFO /0.0.1/admin/collector/directorMuseum Parameter {
+HARRY-PC 2013-02-03 00:23:02.8156 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -249,7 +22,7 @@ HARRY-PC 2013-02-02 21:14:52.5121 INFO /0.0.1/admin/collector/directorMuseum Par
         }
     ]
 }
-HARRY-PC 2013-02-02 21:15:18.2802 INFO /0.0.1/admin/collector/directorMuseum Parameter {
+HARRY-PC 2013-02-03 00:23:33.7474 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -273,7 +46,7 @@ HARRY-PC 2013-02-02 21:15:18.2802 INFO /0.0.1/admin/collector/directorMuseum Par
         }
     ]
 }
-HARRY-PC 2013-02-02 21:17:27.1264 INFO /0.0.1/admin/collector/directorMuseum Parameter {
+HARRY-PC 2013-02-03 00:24:30.0923 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -297,7 +70,7 @@ HARRY-PC 2013-02-02 21:17:27.1264 INFO /0.0.1/admin/collector/directorMuseum Par
         }
     ]
 }
-HARRY-PC 2013-02-02 23:28:01.6632 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 00:24:43.3788 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -321,7 +94,7 @@ HARRY-PC 2013-02-02 23:28:01.6632 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:28:13.5696 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 02:04:01.7339 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -345,7 +118,7 @@ HARRY-PC 2013-02-02 23:28:13.5696 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:28:31.7851 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 02:04:27.2724 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -369,7 +142,7 @@ HARRY-PC 2013-02-02 23:28:31.7851 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:29:59.5528 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 02:05:31.7850 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -393,7 +166,7 @@ HARRY-PC 2013-02-02 23:29:59.5528 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:30:15.6635 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 02:11:43.4783 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -417,7 +190,7 @@ HARRY-PC 2013-02-02 23:30:15.6635 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:30:26.0802 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 02:12:12.5964 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -441,7 +214,7 @@ HARRY-PC 2013-02-02 23:30:26.0802 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:30:42.7195 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 02:12:22.6752 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -465,7 +238,7 @@ HARRY-PC 2013-02-02 23:30:42.7195 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:31:04.6796 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 02:13:43.1795 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -489,7 +262,7 @@ HARRY-PC 2013-02-02 23:31:04.6796 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:31:17.8524 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 02:14:55.0079 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -513,7 +286,7 @@ HARRY-PC 2013-02-02 23:31:17.8524 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:31:36.8869 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 02:16:27.8272 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -537,7 +310,7 @@ HARRY-PC 2013-02-02 23:31:36.8869 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:35:08.5914 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 02:16:59.1079 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -561,7 +334,7 @@ HARRY-PC 2013-02-02 23:35:08.5914 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:35:41.5091 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 02:21:16.7139 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -585,7 +358,7 @@ HARRY-PC 2013-02-02 23:35:41.5091 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:36:26.3352 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 02:21:53.3121 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -609,7 +382,7 @@ HARRY-PC 2013-02-02 23:36:26.3352 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:37:02.8771 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 02:28:11.5684 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -633,7 +406,7 @@ HARRY-PC 2013-02-02 23:37:02.8771 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:38:09.4958 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 02:28:20.3163 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -657,7 +430,7 @@ HARRY-PC 2013-02-02 23:38:09.4958 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:38:14.2771 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 13:55:22.1289 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -681,7 +454,7 @@ HARRY-PC 2013-02-02 23:38:14.2771 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:39:12.1634 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 14:04:55.1147 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -705,7 +478,7 @@ HARRY-PC 2013-02-02 23:39:12.1634 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:41:57.1770 INFO /0.0.1/admin/collection/meta Parameter {
+HARRY-PC 2013-02-03 14:05:37.6516 INFO /0.0.1/admin/collection/meta Parameter {
     "id": "2",
     "Director": [
         {
@@ -729,27 +502,9 @@ HARRY-PC 2013-02-02 23:41:57.1770 INFO /0.0.1/admin/collection/meta Parameter {
         }
     ]
 }
-HARRY-PC 2013-02-02 23:42:37.5076 INFO /0.0.1/admin/collection/meta Parameter {
-    "id": "2",
-    "Director": [
-        {
-            "position": "Director",
-            "firstName": "asdf",
-            "lastName": "a",
-            "title": "mr",
-            "gender": "m",
-            "email": "asdf@asdf.com",
-            "facebook": "asdf",
-            "linkedin": "asdf"
-        }
-    ],
-    "Museum": [
-        {
-            "name": "sadf",
-            "year": "1233",
-            "url": "asdf",
-            "telephone": "2314",
-            "line1": "weaf"
-        }
-    ]
-}
+HARRY-PC 2013-02-03 14:13:34.1211 INFO /0.0.1/admin/collection/meta Parameter 
+HARRY-PC 2013-02-03 14:13:34.2255 ERROR Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Path '', line 0, position 0.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at LarrysList.Controllers.Admin.CollectionController.meta() in c:\LarrysList\code\LarrysList\LarrysList\Controllers\Admin\CollectionController.cs:line 131|||
+HARRY-PC 2013-02-03 14:14:35.3287 INFO /0.0.1/admin/collection/meta Parameter 

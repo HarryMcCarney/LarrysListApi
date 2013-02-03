@@ -1,6 +1,8 @@
 ﻿using System;
+using DBVC;
 using LarrysList.Auth;
 using LarrysList.Models;
+using Newtonsoft.Json.Linq;
 
 namespace LarrysList.Controllers.Admin
 {
@@ -98,6 +100,46 @@ namespace LarrysList.Controllers.Admin
                 errorResult(exp);
             }
             return formattedResult(result);
+        }
+
+      
+        [AuthClient]
+        public string metaSet()
+        {
+            try
+            {
+                var jsonProc = new MSSQLData();
+                result.json = JObject.Parse(jsonProc.execStoredProc("api.admin_collection_set_meta_json", JsonObjectId, jsonParam));
+                result.procName = "api.admin_collection_meta_json";
+                result.status = 0;
+               
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+               
+            }
+            return formattedResult(result);
+
+        }
+        [AuthClient]
+        public string meta()
+        {
+            try
+            {
+                var jsonProc = new MSSQLData();
+                result.json = JObject.Parse(jsonProc.execStoredProc("api.admin_collection_meta_json", JsonObjectId, null));
+                result.procName = "api.admin_collection_meta_json";
+                result.status = 0;
+
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+
+            }
+            return formattedResult(result);
+
         }
 
     }

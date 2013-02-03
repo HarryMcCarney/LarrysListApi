@@ -19,6 +19,11 @@ namespace LarrysList.Controllers
         public Result result;
         public Orm orm;
         public string jsonParam;
+        public int JsonObjectId;
+
+
+
+
         public BaseController()
         {
             result = new Result();
@@ -35,6 +40,7 @@ namespace LarrysList.Controllers
             setJson(filterContext);
             log.Info(string.Format("{0} Parameter {1}", filterContext.HttpContext.Request.RawUrl, jsonParam));
             Response.ContentType = "application/json";
+            JsonObjectId = Convert.ToInt32(filterContext.RequestContext.HttpContext.Request.Headers["JsonObjectId"]);
         }
 
         protected void errorResult(Exception exp)

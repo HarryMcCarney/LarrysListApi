@@ -5,6 +5,7 @@ using System.Web;
 using System.Xml.Serialization;
 using DBVC;
 using LarrysList.Models;
+using Newtonsoft.Json.Linq;
 
 namespace LarrysList
 {
@@ -19,6 +20,9 @@ namespace LarrysList
         public string dbMessage { get; set; }
         [XmlAttribute]
         public string procName { get; set; }
+
+        [XmlIgnore]
+        public JObject json { get; set; }
         [XmlElement]
         public Global Global { get; set; }
         [XmlElement]

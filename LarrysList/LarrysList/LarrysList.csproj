@@ -39,8 +39,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DBVC">
-      <HintPath>..\packages\DBVC.0.2.0\lib\DBVC.dll</HintPath>
+    <Reference Include="DBVC, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DBVC.0.2.7\lib\DBVC.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="NLog">
@@ -111,6 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Auth\AuthClient.cs" />
+    <Compile Include="Auth\JsonStore.cs" />
     <Compile Include="Controllers\Admin\CollectionController.cs" />
     <Compile Include="Controllers\Admin\CollectorController.cs" />
     <Compile Include="Controllers\Admin\FeederController.cs" />
@@ -135,6 +137,7 @@
     <Compile Include="Models\Company.cs" />
     <Compile Include="Models\Config.cs" />
     <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\Director.cs" />
     <Compile Include="Models\Email.cs" />
     <Compile Include="Models\Fact.cs" />
     <Compile Include="Models\Feeder.cs" />
@@ -146,6 +149,7 @@
     <Compile Include="Models\LinkedCollector.cs" />
     <Compile Include="Models\LoginLink.cs" />
     <Compile Include="Models\Medium.cs" />
+    <Compile Include="Models\Museum.cs" />
     <Compile Include="Models\Nationality.cs" />
     <Compile Include="Models\Network.cs" />
     <Compile Include="Models\Origin.cs" />
