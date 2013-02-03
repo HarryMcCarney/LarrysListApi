@@ -110,7 +110,7 @@ namespace LarrysList.Controllers.Admin
             {
                 var jsonProc = new MSSQLData();
                 result.json = JObject.Parse(jsonProc.execStoredProc("api.admin_collection_set_meta_json", JsonObjectId, jsonParam));
-                result.procName = "api.admin_collection_meta_json";
+                result.procName = "api.admin_collection_set_meta_json";
                 result.status = 0;
                
             }
