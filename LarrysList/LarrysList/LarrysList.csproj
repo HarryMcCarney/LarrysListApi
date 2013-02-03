@@ -168,6 +168,7 @@
     <Compile Include="Models\Theme.cs" />
     <Compile Include="Models\ThemeSearch.cs" />
     <Compile Include="Models\Title.cs" />
+    <Compile Include="Models\TopMuseum.cs" />
     <Compile Include="Models\University.cs" />
     <Compile Include="Models\Document.cs" />
     <Compile Include="Models\Workflow.cs" />

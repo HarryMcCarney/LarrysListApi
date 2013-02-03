@@ -27,5 +27,7 @@ namespace LarrysList.Models
        public List<Publisher> Publisher { get; set; }
        [XmlElement]
        public List<SourceType> SourceType { get; set; }
-    }
+       [XmlElement]
+       public List<TopMuseum> TopMuseum { get; set; }
+     }
 }

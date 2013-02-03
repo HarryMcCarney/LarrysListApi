@@ -523,3 +523,8 @@ HARRY-PC 2013-02-03 15:03:16.1625 ERROR Newtonsoft.Json.JsonReaderException: Err
    at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
    at Newtonsoft.Json.Linq.JObject.Parse(String json)
    at LarrysList.Controllers.Admin.CollectionController.meta() in c:\LarrysList\code\LarrysList\LarrysList\Controllers\Admin\CollectionController.cs:line 135|||
+HARRY-PC 2013-02-03 18:14:27.3031 INFO /0.0.1/admin/feeder/forgotPwd Parameter {"email":"5235423@friendfund.com"}
+HARRY-PC 2013-02-03 18:17:01.2564 INFO /0.0.1/admin/feeder/forgotPwd Parameter {"email":"5235423@friendfund.com"}
+HARRY-PC 2013-02-03 18:17:18.8979 INFO /0.0.1/admin/feeder/resendForgotPwd Parameter {"email":"5235423@friendfund.com"}
+HARRY-PC 2013-02-03 18:17:43.5992 INFO /0.0.1/admin/feeder/resendForgotPwd Parameter {"email":"5235423@friendfund.com"}
+HARRY-PC 2013-02-03 18:20:10.4141 INFO /0.0.1/admin/feeder/resendForgotPwd Parameter {"email":"5235423@friendfund.com"}
