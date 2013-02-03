@@ -3,6 +3,7 @@ set-location 'c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\'
 #stop sites and services 
 Import-Module WebAdministration
 Stop-WebSite 'LarrysList_Dev_Api'
+Stop-Service LarrysListMailQueue | Out-Null
 
 
 #delete everything 
