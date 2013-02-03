@@ -175,6 +175,12 @@
     <Compile Include="Result.cs" />
     <Compile Include="Services\Config\Globals.cs" />
     <Compile Include="Controllers\Admin\ResourceController.cs" />
+    <Compile Include="Services\Messaging\Field.cs" />
+    <Compile Include="Services\Messaging\ITemplate.cs" />
+    <Compile Include="Services\Messaging\MailHelpers.cs" />
+    <Compile Include="Services\Messaging\Message.cs" />
+    <Compile Include="Services\Messaging\MessagingService.cs" />
+    <Compile Include="Services\Messaging\Templates\ForgotPwdEmail.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />

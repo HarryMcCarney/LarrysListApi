@@ -1,6 +1,7 @@
 ﻿using System;
 using LarrysList.Auth;
 using LarrysList.Models;
+using LarrysList.Services.Messaging;
 
 namespace LarrysList.Controllers.Admin
 {
@@ -61,7 +62,7 @@ namespace LarrysList.Controllers.Admin
                 result = orm.execObject<Result>(feeder, "api.admin_feeder_pwd_forgot");
                 if (result.dbMessage == null)
                 {
-                    //result.Feeder.sendPwdForgot();
+                    result.Feeder.sendPwdForgot();
                 }
             }
             catch (Exception exp)
@@ -82,7 +83,7 @@ namespace LarrysList.Controllers.Admin
                 result = orm.execObject<Result>(feeder, "api.admin_feeder_resend_pwd_forgot");
                 if (result.dbMessage == null)
                 {
-                    //result.Feeder.sendPwdForgot();
+                    result.Feeder.sendPwdForgot();
                 }
             }
             catch (Exception exp)
