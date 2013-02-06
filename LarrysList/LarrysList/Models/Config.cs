@@ -31,5 +31,8 @@ namespace LarrysList.Models
        public List<TopMuseum> TopMuseum { get; set; }
        [XmlElement]
        public List<Relation> Relation { get; set; }
+       [XmlElement]
+       public List<ArtFair> ArtFair { get; set; }
+
      }
 }
