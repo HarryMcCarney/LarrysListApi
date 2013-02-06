@@ -51,5 +51,7 @@ namespace LarrysList
         public Feeder Feeder { get; set; }
         [XmlElement]
         public Document Upload { get; set; }
+        [XmlElement]
+        public User User { get; set; }
     }
 }

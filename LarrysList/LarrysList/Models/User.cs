@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace $rootnamespace$.Models
+namespace LarrysList.Models
 {
     [Serializable]
     public class User
