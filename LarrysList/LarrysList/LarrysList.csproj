@@ -146,12 +146,15 @@
     <Compile Include="Models\Feeder.cs" />
     <Compile Include="Models\Feeders.cs" />
     <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\GenreSearch.cs" />
     <Compile Include="Models\Global.cs" />
     <Compile Include="Models\Industry.cs" />
     <Compile Include="Models\Interest.cs" />
+    <Compile Include="Models\InterestSearch.cs" />
     <Compile Include="Models\LinkedCollector.cs" />
     <Compile Include="Models\LoginLink.cs" />
     <Compile Include="Models\Medium.cs" />
+    <Compile Include="Models\MediumSearch.cs" />
     <Compile Include="Models\Museum.cs" />
     <Compile Include="Models\Nationality.cs" />
     <Compile Include="Models\Network.cs" />
@@ -189,7 +192,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
 using LarrysList.Models;
 
 namespace LarrysList.Controllers.Admin
@@ -73,7 +69,7 @@ namespace LarrysList.Controllers.Admin
             return formattedResult(result);
         }
 
-        public string interest(InterstSearch interest)
+        public string interest(InterestSearch interest)
         {
             try
             {
