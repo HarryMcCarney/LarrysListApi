@@ -130,6 +130,7 @@
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\AddressSearch.cs" />
     <Compile Include="Models\AddressSearchResult.cs" />
+    <Compile Include="Models\ArtFair.cs" />
     <Compile Include="Models\Artist.cs" />
     <Compile Include="Models\ArtistSearch.cs" />
     <Compile Include="Models\ArtWork.cs" />
