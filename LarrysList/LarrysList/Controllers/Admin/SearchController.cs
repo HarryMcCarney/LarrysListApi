@@ -72,5 +72,44 @@ namespace LarrysList.Controllers.Admin
             }
             return formattedResult(result);
         }
+
+        public string interest(InterstSearch interest)
+        {
+            try
+            {
+                result = orm.execObject<Result>(interest, "api.admin_interest_search");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
+        public string medium(MediumSearch medium)
+        {
+            try
+            {
+                result = orm.execObject<Result>(medium, "api.admin_medium_search");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
+        public string genre(GenreSearch genre)
+        {
+            try
+            {
+                result = orm.execObject<Result>(genre, "api.admin_genre_search");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
     }
 }
