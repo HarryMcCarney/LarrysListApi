@@ -136,5 +136,19 @@ namespace LarrysList.Controllers.Admin
             return formattedResult(result);
         }
 
+        [AuthClient]
+        public string collectors()
+        {
+            try
+            {
+                result = orm.execObject<Result>(null, "api.admin_feeder_collectors");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
     }
 }
