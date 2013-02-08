@@ -137,11 +137,11 @@ namespace LarrysList.Controllers.Admin
         }
 
         [AuthClient]
-        public string collectors()
+        public string collectors(Feeder feeder)
         {
             try
             {
-                result = orm.execObject<Result>(null, "api.admin_feeder_collectors");
+                result = orm.execObject<Result>(feeder, "api.admin_feeder_collectors");
             }
             catch (Exception exp)
             {
