@@ -19,6 +19,13 @@ namespace LarrysList
            new { controller = "Home", action = "Index", id = UrlParameter.Optional },
            new[] { "LarrysList.Controllers.Admin" });
 
+
+            routes.MapRoute(
+      "WEB", // Route name
+      "{versionNo}/web/{controller}/{action}/{id}", // URL with parameters
+      new { controller = "Home", action = "Index", id = UrlParameter.Optional },
+      new[] { "LarrysList.Controllers.Web" });
+
             routes.MapRoute(
                 name: "Default",
                 url: "{versionNo}/{controller}/{action}/{id}",

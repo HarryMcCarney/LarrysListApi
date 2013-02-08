@@ -123,6 +123,7 @@
     <Compile Include="Controllers\ArtistController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\ConfigController.cs" />
+    <Compile Include="Controllers\Web\SearchController.cs" />
     <Compile Include="Controllers\Web\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -147,6 +148,8 @@
     <Compile Include="Models\Fact.cs" />
     <Compile Include="Models\Feeder.cs" />
     <Compile Include="Models\Feeders.cs" />
+    <Compile Include="Models\Filters.cs" />
+    <Compile Include="Models\Gender.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\GenreSearch.cs" />
     <Compile Include="Models\Global.cs" />

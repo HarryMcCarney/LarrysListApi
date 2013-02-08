@@ -1,0 +1,85 @@
+HARRY-PC 2013-02-08 16:26:22.9173 INFO /0.0.1/web/search/collector Parameter {
+  "CollectorSearch": {
+    "term": "berlin",
+    "Filters": {
+      "Genre": { "name": "Icon Art" },
+      "Artist": { "name": "Page" },
+      "Gender": { "name": "f" }
+    }
+  }
+}
+HARRY-PC 2013-02-08 16:27:11.0107 INFO /0.0.1/web/search/collector Parameter {
+  "CollectorSearch": {
+    "term": "berlin",
+    "Filters": {
+      "Genre": { "name": "Icon Art" },
+      "Artist": { "name": "Page" },
+      "Gender": { "name": "f" }
+    }
+  }
+}
+HARRY-PC 2013-02-08 16:27:34.2000 INFO /0.0.1/web/search/collector Parameter {
+  "CollectorSearch": {
+    "term": "berlin",
+    "Filters": {
+      "Genre": { "name": "Icon Art" },
+      "Artist": { "name": "Page" },
+      "Gender": { "name": "f" }
+    }
+  }
+}
+HARRY-PC 2013-02-08 16:28:05.2773 INFO /0.0.1/web/search/collector Parameter {
+  "CollectorSearch": {
+    "term": "berlin",
+    "Filters": {
+      "Genre": { "name": "Icon Art" },
+      "Artist": { "name": "Page" },
+      "Gender": { "name": "f" }
+    }
+  }
+}
+HARRY-PC 2013-02-08 16:28:34.4621 INFO /0.0.1/web/search/collector Parameter  {
+    "term": "berlin",
+    "Filters": {
+      "Genre": { "name": "Icon Art" },
+      "Artist": { "name": "Page" },
+      "Gender": { "name": "f" }
+    }
+  }
+
+HARRY-PC 2013-02-08 16:29:07.1310 INFO /0.0.1/web/search/collector Parameter  {
+    "term": "berlin",
+    "Filters": {
+      "Genre": [{ "name": "Icon Art" }],
+      "Artist":[ { "name": "Page" }],
+      "Gender": [{ "name": "f" }]
+    }
+  }
+
+HARRY-PC 2013-02-08 16:29:11.1990 INFO /0.0.1/web/search/collector Parameter  {
+    "term": "berlin",
+    "Filters": {
+      "Genre": [{ "name": "Icon Art" }],
+      "Artist":[ { "name": "Page" }],
+      "Gender": [{ "name": "f" }]
+    }
+  }
+
+HARRY-PC 2013-02-08 16:32:55.3154 INFO /0.0.1/web/search/collector Parameter  {
+    "term": "berlin",
+    "Filters": {
+      "Genre": [{ "name": "Icon Art" }],
+      "Artist":[ { "name": "Page" }],
+      "Gender": [{ "name": "f" }]
+    }
+  }
+
+HARRY-PC 2013-02-08 16:38:37.7663 INFO /0.0.1/web/search/collector Parameter  {
+    "term": "berlin",
+    "Filters": {
+      "Genre": [{ "name": "Icon Art" }],
+      "Artist":[ { "name": "Page" }]
+     
+    }
+  }
+

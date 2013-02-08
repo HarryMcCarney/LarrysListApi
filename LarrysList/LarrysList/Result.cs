@@ -53,5 +53,7 @@ namespace LarrysList
         public Document Upload { get; set; }
         [XmlElement]
         public User User { get; set; }
+        [XmlElement]
+        public Filters Filters { get; set; }
     }
 }

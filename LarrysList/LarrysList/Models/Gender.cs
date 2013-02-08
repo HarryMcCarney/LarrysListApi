@@ -7,11 +7,9 @@ using System.Xml.Serialization;
 namespace LarrysList.Models
 {
     [Serializable]
-    public class CollectorSearch
+    public class Gender
     {
         [XmlAttribute]
-        public string term { get; set; }
-        [XmlElement]
-        public Filters Filters { get; set; }
+        public string name { get; set; }
     }
 }
