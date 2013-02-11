@@ -33,6 +33,8 @@ namespace LarrysList.Models
        public List<Relation> Relation { get; set; }
        [XmlElement]
        public List<ArtFair> ArtFair { get; set; }
+       [XmlElement]
+       public List<PaymentOption> PaymentOption { get; set; }
 
      }
 }
