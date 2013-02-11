@@ -139,3 +139,51 @@ HARRY-PC 2013-02-11 20:42:02.0105 INFO /0.0.1/web/credit/buy Parameter {"userTok
 "number":"4111111111111111",
 "cvs":"737"
 }
+HARRY-PC 2013-02-11 20:58:10.0142 INFO /0.0.1/web/credit/buy Parameter {"userToken":"FAA7DD5F-E1E8-4631-944F-3B611D543A5F", 
+"paymentOptionToken":"B675D6DC-F89E-42D2-AD9D-CE4D2E05BED9",
+"method":"VISA", 
+"holder":"asd",
+"expiryYear":"2016",
+"expiryMonth":"06",
+"number":"4111111111111111",
+"cvs":"737",
+"useSavedDetails":true
+}
+HARRY-PC 2013-02-11 20:58:23.0968 ERROR System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at LarrysList.Services.PaymentService.RecurringDetailsEndPoint..ctor() in c:\LarrysList\code\LarrysList\LarrysList\Services\Payment\RecurringDetailsEndPoint.cs:line 22
+   at LarrysList.Services.PaymentService.ProcessPayment.buildPaymentRequest() in c:\LarrysList\code\LarrysList\LarrysList\Services\Payment\ProcessPayment.cs:line 82
+HARRY-PC 2013-02-11 20:58:25.7958 ERROR System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at LarrysList.Services.PaymentService.RecurringDetailsEndPoint..ctor() in c:\LarrysList\code\LarrysList\LarrysList\Services\Payment\RecurringDetailsEndPoint.cs:line 22
+   at LarrysList.Services.PaymentService.ProcessPayment.buildPaymentRequest() in c:\LarrysList\code\LarrysList\LarrysList\Services\Payment\ProcessPayment.cs:line 109
+   at LarrysList.Services.PaymentService.ProcessPayment.makePayment() in c:\LarrysList\code\LarrysList\LarrysList\Services\Payment\ProcessPayment.cs:line 47
+HARRY-PC 2013-02-11 20:59:43.1382 INFO /0.0.1/web/credit/buy Parameter {"userToken":"FAA7DD5F-E1E8-4631-944F-3B611D543A5F", 
+"paymentOptionToken":"B675D6DC-F89E-42D2-AD9D-CE4D2E05BED9",
+"method":"VISA", 
+"holder":"asd",
+"expiryYear":"2016",
+"expiryMonth":"06",
+"number":"4111111111111111",
+"cvs":"737",
+"useSavedDetails":true
+}
+HARRY-PC 2013-02-11 20:59:50.2776 ERROR System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at LarrysList.Services.PaymentService.RecurringDetailsEndPoint..ctor() in c:\LarrysList\code\LarrysList\LarrysList\Services\Payment\RecurringDetailsEndPoint.cs:line 22
+   at LarrysList.Services.PaymentService.ProcessPayment.buildPaymentRequest() in c:\LarrysList\code\LarrysList\LarrysList\Services\Payment\ProcessPayment.cs:line 82
+HARRY-PC 2013-02-11 20:59:52.6275 ERROR System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at LarrysList.Services.PaymentService.RecurringDetailsEndPoint..ctor() in c:\LarrysList\code\LarrysList\LarrysList\Services\Payment\RecurringDetailsEndPoint.cs:line 22
+   at LarrysList.Services.PaymentService.ProcessPayment.buildPaymentRequest() in c:\LarrysList\code\LarrysList\LarrysList\Services\Payment\ProcessPayment.cs:line 109
+   at LarrysList.Services.PaymentService.ProcessPayment.makePayment() in c:\LarrysList\code\LarrysList\LarrysList\Services\Payment\ProcessPayment.cs:line 47
+HARRY-PC 2013-02-11 21:00:28.2746 INFO /0.0.1/web/credit/buy Parameter {"userToken":"FAA7DD5F-E1E8-4631-944F-3B611D543A5F", 
+"paymentOptionToken":"B675D6DC-F89E-42D2-AD9D-CE4D2E05BED9",
+"method":"VISA", 
+"holder":"asd",
+"expiryYear":"2016",
+"expiryMonth":"06",
+"number":"4111111111111111",
+"cvs":"737",
+"useSavedDetails":true
+}

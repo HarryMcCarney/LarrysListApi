@@ -3,7 +3,6 @@ using LarryList.Services.PaymentService;
 using LarrysList.Services.GlobalConfig;
 using LarrysList.comadyenpaltest;
 using LarrysList.Models;
-using LarrysList.Services.PaymentService;
 using NLog;
 using Payment = LarrysList.Models.Payment;
 using adyen = LarrysList.comadyenpaltest;
@@ -13,35 +12,35 @@ using adyen = LarrysList.comadyenpaltest;
 
 namespace LarrysList.Services.PaymentService
 {
-    
+
     public class ProcessPayment
     {
 
         private static readonly Logger log = LogManager.GetCurrentClassLogger();
         private PaymentStatus paymentStatus;
         private adyen.Payment paymentEndPoint;
-        private Payment     payment;
+        private Payment payment;
 
         public ProcessPayment(Payment _payment)
         {
-             payment = _payment;
-             paymentStatus = new PaymentStatus();
-             paymentEndPoint = new PaymentEndPoint().paymentService;
+            payment = _payment;
+            paymentStatus = new PaymentStatus();
+            paymentEndPoint = new PaymentEndPoint().paymentService;
         }
 
         public PaymentStatus pay()
         {
-          
-                validate();
-                if (paymentStatus.success)
-                    makePayment();
-    
+
+            validate();
+            if (paymentStatus.success)
+                makePayment();
+
 
             return paymentStatus;
         }
 
-      
-       private void makePayment()
+
+        private void makePayment()
         {
             try
             {
@@ -72,49 +71,44 @@ namespace LarrysList.Services.PaymentService
             try
             {
                 var request = new PaymentRequest
-                                  {
-                                      merchantAccount = Globals.Instance.settings["AdyenMerchantAccount"],
-                                      amount = new Amount {currency = payment.currency, value = payment.amount},
-                                      reference = payment.paymentRef
-                                  };
-
-                if (payment.method == "ELV")
-                {
-                    request.elv = new ELV()
                     {
-                        accountHolderName = payment.accountHolderName,//"Simon わくわく Hopper", 
-                        bankAccountNumber = payment.bankAccountNumber,
-                        bankLocation = payment.bankLocation,
-                        bankLocationId = payment.bankLocationId,
-                        bankName = payment.bankName//"TestBank" 
+                        merchantAccount = Globals.Instance.settings["AdyenMerchantAccount"],
+                        amount = new Amount {currency = payment.currency, value = payment.amount},
+                        reference = payment.paymentRef
                     };
-                
-                 }
-                else {// credit card
-                    
+                    if (payment.useSavedDetails)
+                    {
+                        request.card = new Card {cvc = payment.cvs};
+                        request.selectedRecurringDetailReference =
+                            new RecurringDetailsEndPoint().getRecurringDetail(payment.shopperRef);
+                    }
+                    else
+                    {
                         request.card = new Card
-                                       {
-                                           brand = payment.method.ToLower(),
-                                           cvc = payment.cvs,
-                                           expiryMonth = payment.expiryMonth,
-                                           expiryYear = payment.expiryYear,
-                                           holderName = payment.holder,
-                                           number = payment.number
-                                       };
-                        }
+                            {
+                                brand = payment.method.ToLower(),
+                                cvc = payment.cvs,
+                                expiryMonth = payment.expiryMonth,
+                                expiryYear = payment.expiryYear,
+                                holderName = payment.holder,
+                                number = payment.number
+                            };
+                    }
 
                     request.recurring = new Recurring() {contract = "ONECLICK"};
                     request.shopperReference = payment.shopperRef;
                     request.shopperEmail = payment.shopperRef;
-    
-                return request;
-            }
-            catch (Exception exp)
+
+                    return request;
+                }
+            
+            catch
+                (Exception exp)
             {
                 log.Error(exp);
                 throw;
             }
-        
+
         }
 
 
@@ -123,5 +117,5 @@ namespace LarrysList.Services.PaymentService
 
        
     }
-    
-}
+
+    }

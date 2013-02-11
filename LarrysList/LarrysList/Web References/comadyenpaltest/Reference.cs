@@ -1826,7 +1826,7 @@ namespace LarrysList.comadyenpaltest {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://payment.services.adyen.com")]
-    public partial class Recurring {
+    public partial class    Recurring {
         
         private string contractField;
         
