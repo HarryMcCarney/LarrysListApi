@@ -14,7 +14,11 @@ namespace LarrysList.Models
         [XmlAttribute]
         public string initials { get; set; }
         [XmlAttribute]
+        public string updated { get; set; }
+        [XmlAttribute]
         public string feederToken { get; set; }
+        [XmlAttribute]
+        public string feederName { get; set; }
         [XmlAttribute]
         public string status { get; set; }
         [XmlAttribute]

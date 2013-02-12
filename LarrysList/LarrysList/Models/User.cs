@@ -18,6 +18,8 @@ namespace LarrysList.Models
         public string picture { get; set; }
 		[XmlAttribute]
         public string activationToken { get; set; }
+        [XmlAttribute]
+        public string credit { get; set; }
 
     }
 

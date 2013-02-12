@@ -125,6 +125,21 @@ namespace LarrysList.Controllers.Web
             return formattedResult(result);
         }
 
+        [AuthClient]
+        public string profile(User user)
+        {
+            try
+            {
+                result = orm.execObject<Result>(user, "api.user_profile");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
+
 
 
        
