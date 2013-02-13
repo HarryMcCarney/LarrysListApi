@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Xml.Serialization;
 
 namespace LarrysList.Models
@@ -20,6 +21,8 @@ namespace LarrysList.Models
         public string activationToken { get; set; }
         [XmlAttribute]
         public string credit { get; set; }
+        [XmlElement]
+        public List<Collector> Collector { get; set; }
 
     }
 

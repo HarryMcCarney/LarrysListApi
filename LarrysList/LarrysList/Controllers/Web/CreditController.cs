@@ -22,5 +22,18 @@ namespace LarrysList.Controllers.Web
             }
             return formattedResult(result);
             }
+
+        public string spend(User user)
+        {
+            try
+            {
+                result = orm.execObject<Result>(user, "api.user_credit_spend");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
     }
 }
