@@ -21,6 +21,8 @@ namespace LarrysList.Models
         public string activationToken { get; set; }
         [XmlAttribute]
         public string credit { get; set; }
+        [XmlAttribute]
+        public string cardNumber { get; set; }
         [XmlElement]
         public List<Collector> Collector { get; set; }
 
