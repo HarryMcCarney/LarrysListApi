@@ -27,6 +27,19 @@ New-Item "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices" -typ
 New-Item "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\MailQueue\" -type directory
 copy-item "c:\hudson\jobs\LarrysList_$env\workspace\LarrysList\MailQueue\bin\*" "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\MailQueue\" -recurse
 
+if ($env -eq "Live")
+{
+#UPDATE .configs
+$connectionString = "data source=88.198.7.228\Descartes,1984;Initial Catalog=LarrysList_Live;User Id=LarrysList_user;Password=Popov2010;"
+#API
+$webConfigPath = "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListApi\web.config"
+$xml = [xml](get-content $webConfigPath)
+$root = $xml.get_DocumentElement();
+$root.connectionStrings.add.connectionString = $connectionString
+$xml.Save($webConfigPath)
+}
+
+
 #start sites and services 
 Start-WebSite $site
 Start-Service LarrysListMailQueue
