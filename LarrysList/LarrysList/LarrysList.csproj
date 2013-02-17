@@ -159,6 +159,7 @@
     <Compile Include="Models\InterestSearch.cs" />
     <Compile Include="Models\LinkedCollector.cs" />
     <Compile Include="Models\LoginLink.cs" />
+    <Compile Include="Models\Material.cs" />
     <Compile Include="Models\Medium.cs" />
     <Compile Include="Models\MediumSearch.cs" />
     <Compile Include="Models\Museum.cs" />
