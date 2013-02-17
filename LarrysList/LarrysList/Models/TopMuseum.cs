@@ -13,5 +13,19 @@ namespace LarrysList.Models
         public string name { get; set; }
         [XmlAttribute]
         public string city { get; set; }
+        [XmlAttribute]
+        public string line1 { get; set; }
+
+        [XmlAttribute]
+        public string line2 { get; set; }
+
+        [XmlAttribute]
+        public string postCode { get; set; }
+        [XmlAttribute]
+        public string country { get; set; }
+
+       
+
+
     }
 }
