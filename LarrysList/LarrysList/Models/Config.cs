@@ -35,6 +35,8 @@ namespace LarrysList.Models
        public List<PaymentOption> PaymentOption { get; set; }
        [XmlElement]
        public List<Material> Material { get; set; }
+       [XmlElement]
+       public ReviewedCollectors ReviewedCollectors { get; set; }
 
      }
 }
