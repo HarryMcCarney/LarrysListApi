@@ -175,6 +175,7 @@
     <Compile Include="Models\Publisher.cs" />
     <Compile Include="Models\Region.cs" />
     <Compile Include="Models\Relation.cs" />
+    <Compile Include="Models\ReviewedCollectors.cs" />
     <Compile Include="Models\Setting.cs" />
     <Compile Include="Models\Source.cs" />
     <Compile Include="Models\SourceType.cs" />

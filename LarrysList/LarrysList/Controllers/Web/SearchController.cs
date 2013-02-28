@@ -22,5 +22,19 @@ namespace LarrysList.Controllers.Web
             return formattedResult(result);
         }
 
+        public string myCollector(CollectorSearch search)
+        {
+            try
+            {
+                search.my = true;
+                result = orm.execObject<Result>(search, "api.user_collector_search");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
     }
 }

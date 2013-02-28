@@ -1,0 +1,22 @@
+HARRY-PC 2013-02-28 14:03:08.8264 INFO /0.0.1/web/search/collector Parameter {"my":"1", "term":"contemporary"}
+HARRY-PC 2013-02-28 14:04:13.3737 INFO /0.0.1/web/search/collector Parameter {"my":"1", "term":"contemporary",
+"token":"18556858-3092-481D-8C84-EA3D154AC252"
+}
+HARRY-PC 2013-02-28 14:05:37.8436 INFO /0.0.1/web/search/collector Parameter {"my":"1", "term":"contemporary",
+"token":"18556858-3092-481D-8C84-EA3D154AC252"
+}
+HARRY-PC 2013-02-28 14:05:48.6437 INFO /0.0.1/web/search/collector Parameter {"my":"1", "term":"contemporary",
+"token":"18556858-3092-481D-8C84-EA3D154AC252"
+}
+HARRY-PC 2013-02-28 14:11:09.1430 INFO /0.0.1/web/search/collector Parameter {"my":"true", "term":"contemporary",
+"UserToken":"18556858-3092-481D-8C84-EA3D154AC252"
+}
+HARRY-PC 2013-02-28 14:11:21.3124 INFO /0.0.1/web/search/collector Parameter {"my":"true", "term":"contemporary",
+"UserToken":"18556858-3092-481D-8C84-EA3D154AC252"
+}
+HARRY-PC 2013-02-28 14:14:08.4045 INFO /0.0.1/web/search/mycollector Parameter { "term":"contemporary",
+"UserToken":"18556858-3092-481D-8C84-EA3D154AC252"
+}
+HARRY-PC 2013-02-28 14:14:21.6797 INFO /0.0.1/web/search/mycollector Parameter { "term":"Berlin",
+"UserToken":"18556858-3092-481D-8C84-EA3D154AC252"
+}
