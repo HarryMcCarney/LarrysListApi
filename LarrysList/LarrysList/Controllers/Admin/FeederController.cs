@@ -164,5 +164,32 @@ namespace LarrysList.Controllers.Admin
             return formattedResult(result);
         }
 
+        [AuthClient]
+        public string newsfeedset(NewsFeeds newsfeeds)
+        {
+            try
+            {
+                result = orm.execObject<Result>(newsfeeds, "api.admin_newsfeed_set");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
+        [AuthClient]
+        public string newsfeed()
+        {
+            try
+            {
+                result = orm.execObject<Result>(null, "api.admin_newsfeed_get");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
     }
 }

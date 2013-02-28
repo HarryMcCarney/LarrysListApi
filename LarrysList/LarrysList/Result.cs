@@ -59,6 +59,8 @@ namespace LarrysList
         public Payment Payment { get; set; }
         [XmlElement]
         public PaymentStatus PaymentStatus { get; set; }
+        [XmlElement]
+        public NewsFeeds NewsFeeds { get; set; }
         
 
     }

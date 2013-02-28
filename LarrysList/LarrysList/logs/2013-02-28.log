@@ -26,3 +26,11 @@ HARRY-PC 2013-02-28 14:41:14.0442 INFO /0.0.1/web/search/recommended Parameter {
 HARRY-PC 2013-02-28 14:41:58.7855 INFO /0.0.1/web/search/recommended Parameter {
 "UserToken":"FCA6CB23-6C6E-4E59-A21C-57EF2DC90CB1"
 }
+HARRY-PC 2013-02-28 21:23:57.8390 INFO /0.0.1/admin/feeder/newsfeedset Parameter {NewsFeed:[{"source":"sdaf", "value":"asdfasdfasd"},{"source":"sdaf", "value":"asdfasdfasd"},{"source":"sdaf", "value":"asdfasdfasd"},{"source":"sdaf", "value":"asdfasdfasd"},{"source":"sdaf", "value":"asdfasdfasd"}]}
+
+HARRY-PC 2013-02-28 21:24:35.3572 INFO /0.0.1/admin/feeder/newsfeedset Parameter {NewsFeed:[{"source":"sdaf", "value":"asdfasdfasd"},{"source":"sdaf", "value":"asdfasdfasd"},{"source":"sdaf", "value":"asdfasdfasd"},{"source":"sdaf", "value":"asdfasdfasd"},{"source":"sdaf", "value":"asdfasdfasd"}]}
+
+HARRY-PC 2013-02-28 21:26:15.5553 INFO /0.0.1/admin/feeder/newsfeed Parameter {NewsFeed:[{"source":"sdaf", "value":"asdfasdfasd"},{"source":"sdaf", "value":"asdfasdfasd"},{"source":"sdaf", "value":"asdfasdfasd"},{"source":"sdaf", "value":"asdfasdfasd"},{"source":"sdaf", "value":"asdfasdfasd"}]}
+
+HARRY-PC 2013-02-28 21:26:29.9175 INFO /0.0.1/admin/feeder/newsfeed Parameter {NewsFeed:[{"source":"sdaf", "value":"asdfasdfasd"},{"source":"sdaf", "value":"asdfasdfasd"},{"source":"sdaf", "value":"asdfasdfasd"},{"source":"sdaf", "value":"asdfasdfasd"},{"source":"sdaf", "value":"asdfasdfasd"}]}
+

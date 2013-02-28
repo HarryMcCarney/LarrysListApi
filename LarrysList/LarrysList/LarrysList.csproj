@@ -165,6 +165,8 @@
     <Compile Include="Models\Museum.cs" />
     <Compile Include="Models\Nationality.cs" />
     <Compile Include="Models\Network.cs" />
+    <Compile Include="Models\NewsFeed.cs" />
+    <Compile Include="Models\NewsFeeds.cs" />
     <Compile Include="Models\Origin.cs" />
     <Compile Include="Models\OriginSearch.cs" />
     <Compile Include="Models\Payment.cs" />
