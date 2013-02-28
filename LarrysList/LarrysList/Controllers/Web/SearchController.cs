@@ -36,5 +36,19 @@ namespace LarrysList.Controllers.Web
             return formattedResult(result);
         }
 
+        public string recommended(CollectorSearch search)
+        {
+            try
+            {
+                
+                result = orm.execObject<Result>(search, "api.user_recommended_collectors");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
     }
 }

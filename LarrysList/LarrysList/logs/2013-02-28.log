@@ -20,3 +20,9 @@ HARRY-PC 2013-02-28 14:14:08.4045 INFO /0.0.1/web/search/mycollector Parameter {
 HARRY-PC 2013-02-28 14:14:21.6797 INFO /0.0.1/web/search/mycollector Parameter { "term":"Berlin",
 "UserToken":"18556858-3092-481D-8C84-EA3D154AC252"
 }
+HARRY-PC 2013-02-28 14:41:14.0442 INFO /0.0.1/web/search/recommended Parameter {
+"UserToken":"FCA6CB23-6C6E-4E59-A21C-57EF2DC90CB1"
+}
+HARRY-PC 2013-02-28 14:41:58.7855 INFO /0.0.1/web/search/recommended Parameter {
+"UserToken":"FCA6CB23-6C6E-4E59-A21C-57EF2DC90CB1"
+}
