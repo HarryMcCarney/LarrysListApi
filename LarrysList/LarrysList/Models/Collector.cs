@@ -73,7 +73,8 @@ namespace LarrysList.Models
         public int ranking { get; set; }
         [XmlAttribute]
         public int completion { get; set; }
-
+        [XmlAttribute]
+        public int completness { get; set; }
 
     }
  
