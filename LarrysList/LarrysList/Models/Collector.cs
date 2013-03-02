@@ -69,7 +69,10 @@ namespace LarrysList.Models
         public List<Director> Director { get; set; }
         [XmlElement]
         public LinkedCollector LinkedCollector { get; set; }
-
+        [XmlAttribute]
+        public int ranking { get; set; }
+        [XmlAttribute]
+        public int completion { get; set; }
 
 
     }

@@ -9,6 +9,7 @@ set-location "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\"
 
 Stop-WebSite $site
 Stop-Service LarrysListMailQueue | Out-Null
+Stop-Service LarrysListRankingandCompletion | Out-Null
 
 
 #delete everything 
@@ -27,6 +28,10 @@ New-Item "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices" -typ
 New-Item "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\MailQueue\" -type directory
 copy-item "c:\hudson\jobs\LarrysList_$env\workspace\LarrysList\MailQueue\bin\*" "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\MailQueue\" -recurse
 
+
+New-Item "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\RankingandCompletion\" -type directory
+copy-item "c:\hudson\jobs\LarrysList_$env\workspace\LarrysList\RankingandCompletion\bin\*" "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\RankingandCompletion\" -recurse
+
 if ($env -eq "Live")
 {
 #UPDATE .configs
@@ -43,6 +48,7 @@ $xml.Save($webConfigPath)
 #start sites and services 
 Start-WebSite $site
 Start-Service LarrysListMailQueue
+Stop-Service LarrysListRankingandCompletion | Out-Null
 
 
 

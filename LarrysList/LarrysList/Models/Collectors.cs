@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Xml.Serialization;
 
 namespace LarrysList.Models
@@ -7,7 +8,7 @@ namespace LarrysList.Models
     public class Collectors
     {
         [XmlElement]
-        public Collector[] Collector { get; set; }
+        public List<Collector> Collector { get; set; }
 
     }
 }
