@@ -140,11 +140,11 @@ namespace LarrysList.Controllers.Web
         }
 
         [AuthClient]
-        public string getCollector(User user)
+        public string getCollector(Collector collector)
         {
             try
             {
-                result = orm.execObject<Result>(user, "api.user_collector_get");
+                result = orm.execObject<Result>(collector, "api.user_collector_get");
             }
             catch (Exception exp)
             {
