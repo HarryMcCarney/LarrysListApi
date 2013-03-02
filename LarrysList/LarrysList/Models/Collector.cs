@@ -74,7 +74,7 @@ namespace LarrysList.Models
         [XmlAttribute]
         public int completion { get; set; }
         [XmlAttribute]
-        public int completness { get; set; }
+        public string completness { get; set; }
         [XmlAttribute]
         public int followers { get; set; }
 
