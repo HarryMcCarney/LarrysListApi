@@ -139,7 +139,19 @@ namespace LarrysList.Controllers.Web
             return formattedResult(result);
         }
 
-
+        [AuthClient]
+        public string getCollector(User user)
+        {
+            try
+            {
+                result = orm.execObject<Result>(user, "api.user_collector_get");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
 
 
        
