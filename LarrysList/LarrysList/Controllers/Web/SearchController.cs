@@ -50,5 +50,34 @@ namespace LarrysList.Controllers.Web
             return formattedResult(result);
         }
 
+
+        public string addressTypeAhead(Search search)
+        {
+            try
+            {
+
+                result = orm.execObject<Result>(search, "api.user_address_type_ahead");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
+        public string genreTypeAhead(Search search)
+        {
+            try
+            {
+
+                result = orm.execObject<Result>(search, "api.user_address_type_ahead");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
     }
 }

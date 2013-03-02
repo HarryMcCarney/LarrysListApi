@@ -36,6 +36,8 @@ namespace LarrysList
         [XmlElement]
         public List<Artist> Artist { get; set; }
         [XmlElement]
+        public List<TypeAhead> TypeAhead { get; set; }
+        [XmlElement]
         public List<Interest> Interest { get; set; }
         [XmlElement]
         public List<Theme> Theme     { get; set; }
