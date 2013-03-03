@@ -8,6 +8,9 @@ namespace LarrysList.Models
         public string source { get; set; }
         [XmlAttribute]
         public string value { get; set; }
+        [XmlAttribute]
+        public string created { get; set; }
+
 
     }
 }
