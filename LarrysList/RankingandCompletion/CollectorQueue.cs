@@ -11,6 +11,12 @@ namespace RankingandCompletion
     {
         private static readonly Logger log = LogManager.GetCurrentClassLogger();
 
+        public CollectorQueue()
+        {
+            log.Info("CollectorQueue instantiated");
+
+        }
+
         public void process()
         {
             try
