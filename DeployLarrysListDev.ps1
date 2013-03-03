@@ -43,7 +43,7 @@ $root = $xml.get_DocumentElement();
 $root.connectionStrings.add.connectionString = $connectionString
 $xml.Save($webConfigPath)
 #RankingandCompletion
-$webConfigPath = "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\RankingandCompletion\app.config"
+$webConfigPath = "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\RankingandCompletion\RankingandCompletion.exe.config"
 $xml = [xml](get-content $webConfigPath)
 $root = $xml.get_DocumentElement();
 $root.connectionStrings.add.connectionString = $connectionString
