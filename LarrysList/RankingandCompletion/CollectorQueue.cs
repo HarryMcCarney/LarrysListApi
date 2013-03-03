@@ -1,4 +1,5 @@
-﻿using DBVC;
+﻿using System;
+using DBVC;
 using NLog;
 using RankingandCompletion.CompletionLogic;
 using RankingandCompletion.RankingLogic;
@@ -9,13 +10,17 @@ namespace RankingandCompletion
     class CollectorQueue
     {
         private static readonly Logger log = LogManager.GetCurrentClassLogger();
+
         public void process()
         {
+            try
+            {
+            
 
             var collectors = new CollectorRun().collectors;
             foreach (var c in collectors)
             {
-                log.Info("processing " + c.firstName +  " " +c.lastName);
+                log.Info("processing " + c.firstName + " " + c.lastName);
                 new AssignRanking(c).assign();
                 new AssignCompletion(c).assign();
                 log.Info("finsihed calculation for " + c.firstName + " " + c.lastName);
@@ -27,5 +32,12 @@ namespace RankingandCompletion
             var result = orm.execObject<Result>(collectors, "job.collector_ranking_completion_set");
             log.Info("sucessfuly saved ranking and completion for all");
         }
+            catch(Exception exp)
+            {
+                log.Error(exp);
+            }
+        }
+
+    }
     }
 }
