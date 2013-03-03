@@ -21,9 +21,9 @@ namespace RankingandCompletion
                 });
                 x.RunAsNetworkService();
 
-                x.SetDescription("LarrysList Ranking and Completion");
-                x.SetDisplayName("LarrysListRankingandCompletion");
-                x.SetServiceName("LarrysListRankingandCompletion");
+                x.SetDescription("LarrysList Ranking and Completion Live");
+                x.SetDisplayName("LarrysListRankingandCompletionLive");
+                x.SetServiceName("LarrysListRankingandCompletionLive");
             });                                                    
         }
     }

@@ -9,7 +9,7 @@ set-location "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\"
 
 Stop-WebSite $site
 Stop-Service LarrysListMailQueue | Out-Null
-Stop-Service LarrysListRankingandCompletion | Out-Null
+Stop-Service LarrysListRankingandCompletionLive | Out-Null
 
 
 #delete everything 
@@ -42,13 +42,24 @@ $xml = [xml](get-content $webConfigPath)
 $root = $xml.get_DocumentElement();
 $root.connectionStrings.add.connectionString = $connectionString
 $xml.Save($webConfigPath)
+#RankingandCompletion
+$webConfigPath = "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\RankingandCompletion\app.config"
+$xml = [xml](get-content $webConfigPath)
+$root = $xml.get_DocumentElement();
+$root.connectionStrings.add.connectionString = $connectionString
+$xml.Save($webConfigPath)
+
+
+
+
+
 }
 
 
 #start sites and services 
 Start-WebSite $site
 Start-Service LarrysListMailQueue
-Stop-Service LarrysListRankingandCompletion | Out-Null
+Stop-Service LarrysListRankingandCompletionLive | Out-Null
 
 
 
