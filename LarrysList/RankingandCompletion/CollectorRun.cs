@@ -18,6 +18,7 @@ namespace RankingandCompletion
 
         private Collectors Collectors()
         {
+            
             log.Info("fetching all collectors from db");
             var orm = new Orm();
             var result  = orm.execObject<Result>(null, "job.collector_all");
