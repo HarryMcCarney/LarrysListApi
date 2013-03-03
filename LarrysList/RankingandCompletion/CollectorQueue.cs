@@ -15,7 +15,7 @@ namespace RankingandCompletion
         {
             try
             {
-            
+                     log.Info("debugging in here");
 
             var collectors = new CollectorRun().collectors;
             foreach (var c in collectors)
