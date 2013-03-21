@@ -37,6 +37,14 @@ namespace LarrysList.Models
        public List<Material> Material { get; set; }
        [XmlElement]
        public ReviewedCollectors ReviewedCollectors { get; set; }
+       [XmlElement]
+       public List<Artist> Artist { get; set; }
+       [XmlElement]
+       public List<City> City { get; set; }
+       [XmlElement]
+       public List<Region> Region { get; set; }
+       [XmlElement]
+       public List<Country> Country { get; set; }
 
      }
 }
