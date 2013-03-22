@@ -65,12 +65,12 @@ namespace LarrysList.Controllers.Web
             return formattedResult(result);
         }
 
-        public string genreTypeAhead(Search search)
+        public string artistTypeAhead(Search search)
         {
             try
             {
 
-                result = orm.execObject<Result>(search, "api.user_address_type_ahead");
+                result = orm.execObject<Result>(search, "api.user_artist_type_ahead");
             }
             catch (Exception exp)
             {
