@@ -107,5 +107,20 @@ namespace LarrysList.Controllers.Admin
             }
             return formattedResult(result);
         }
+
+      
+        public string userEmail(User user)
+        {
+            try
+            {
+                result = orm.execObject<Result>(user, "api.admin_user_search");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
     }
 }
