@@ -13,7 +13,7 @@ namespace LarrysList.Controllers.Web
         {
             try
             {
-                result = orm.execObject<Result>(search, "api.user_collector_search");
+                result = orm.execObject<Result>(search, "api.user_collector_search_filtered");
             }
             catch (Exception exp)
             {

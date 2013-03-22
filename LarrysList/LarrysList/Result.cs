@@ -56,7 +56,7 @@ namespace LarrysList
         [XmlElement]
         public User User { get; set; }
         [XmlElement]
-        public Filters Filters { get; set; }
+        public List<Filter> Filter { get; set; }
         [XmlElement]
         public Payment Payment { get; set; }
         [XmlElement]

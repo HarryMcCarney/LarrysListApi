@@ -45,6 +45,8 @@ namespace LarrysList.Models
        public List<Region> Region { get; set; }
        [XmlElement]
        public List<Country> Country { get; set; }
+       [XmlElement]
+       public List<Origin> Origin { get; set; }
 
      }
 }

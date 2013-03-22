@@ -7,23 +7,11 @@ using System.Xml.Serialization;
 namespace LarrysList.Models
 {
     [Serializable]
-    public class Filters
+    public class Filter
     {
-        [XmlElement]
-        public List<Gender> Gender { get; set; }
-        [XmlElement]
-        public List<Genre> Genre { get; set; }
-        [XmlElement]
-        public List<Origin> Origin { get; set; }
-        [XmlElement]
-        public List<Medium> Medium { get; set; }
-        [XmlElement]
-        public List<Artist> Artist { get; set; }
-        [XmlElement]
-        public List<City> City { get; set; }
-        [XmlElement]
-        public List<Region> Region { get; set; }
-        [XmlElement]
-        public List<Country> Country { get; set; }
+        [XmlAttribute]
+        public string key { get; set; }
+        [XmlAttribute]
+        public string value { get; set; }
     }
 }
