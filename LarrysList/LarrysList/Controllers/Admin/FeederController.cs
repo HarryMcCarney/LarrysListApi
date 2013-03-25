@@ -191,5 +191,20 @@ namespace LarrysList.Controllers.Admin
             }
             return formattedResult(result);
         }
+
+
+        public string freeCredit(User user)
+        {
+            try
+            {
+                result = orm.execObject<Result>(user, "api.admin_free_credit");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
     }
 }

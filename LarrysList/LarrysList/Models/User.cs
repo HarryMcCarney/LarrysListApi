@@ -25,7 +25,8 @@ namespace LarrysList.Models
         public string cardNumber { get; set; }
         [XmlElement]
         public List<Collector> Collector { get; set; }
-
+        [XmlAttribute]
+        public int freeCredit { get; set; }
     }
 
 }
