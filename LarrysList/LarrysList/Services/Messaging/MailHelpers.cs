@@ -11,7 +11,7 @@ namespace LarrysList.Services.Messaging
         {
             var messaging = new MessagingService();
             var resetUrl = getUrl(Globals.Instance.settings["WebHost"],
-                                    Globals.Instance.settings["UserPwdReset"], feeder.activationToken);
+                                    Globals.Instance.settings["AdminPwdReset"], feeder.activationToken);
 
             var forgotPwdEmail = new ForgotPwdEmail(feeder.email, resetUrl, feeder.name);
             messaging.enqueueMessage(forgotPwdEmail);
