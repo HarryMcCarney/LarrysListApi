@@ -210,6 +210,10 @@
     <Compile Include="Services\Messaging\Message.cs" />
     <Compile Include="Services\Messaging\MessagingService.cs" />
     <Compile Include="Services\Messaging\Templates\ForgotPwdEmail.cs" />
+    <Compile Include="Services\Messaging\Templates\ForgotPwdEmailUser.cs" />
+    <Compile Include="Services\Messaging\Templates\SendReceiptEmail.cs" />
+    <Compile Include="Services\Messaging\Templates\WelcomeEmail.cs" />
+    <Compile Include="Services\Messaging\Templates\WelcomeEmailUser.cs" />
     <Compile Include="Services\Payment\CreatePaymentNotice.cs" />
     <Compile Include="Services\Payment\CreditCardValidator.cs" />
     <Compile Include="Services\Payment\PaymentEndPoint.cs" />

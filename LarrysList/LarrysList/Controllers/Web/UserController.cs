@@ -56,7 +56,7 @@ namespace LarrysList.Controllers.Web
         }
 
 
-        [AuthClient]
+        //[AuthClient]
         public string forgotPwd(User user)
         {
             try
