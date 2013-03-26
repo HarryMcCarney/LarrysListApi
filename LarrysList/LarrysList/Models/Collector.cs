@@ -79,6 +79,10 @@ namespace LarrysList.Models
         public string completness { get; set; }
         [XmlAttribute]
         public int followers { get; set; }
+        [XmlAttribute]
+        public bool hasCollection { get; set; }
+        [XmlAttribute]
+        public bool isContactable { get; set; }
 
     }
  
