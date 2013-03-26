@@ -15,7 +15,7 @@ namespace LarrysList.Controllers.Admin
                 result = orm.execObject<Result>(feeder, "api.admin_feeder_email_signup");
                 if (result.dbMessage == null)
                 {
-                    //result.Feeder.sendWelcomeEmail();
+                    result.Feeder.sendWelcomeEmail();
                 }
             }
             catch (Exception exp)

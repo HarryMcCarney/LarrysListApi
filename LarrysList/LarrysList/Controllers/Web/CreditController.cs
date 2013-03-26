@@ -8,6 +8,7 @@ using LarrysList.Models;
 using LarrysList.Services.PaymentService;
 using LarrysList.comadyenpaltest;
 using Payment = LarrysList.Models.Payment;
+using LarrysList.Services.Messaging;
 
 namespace LarrysList.Controllers.Web
 {
@@ -51,6 +52,12 @@ namespace LarrysList.Controllers.Web
 
 
                     };
+
+                if (result.PaymentStatus.success)
+                {
+
+                    result.Payment.sendReceiptEmail();
+                }
              }
             catch (Exception exp)
             {

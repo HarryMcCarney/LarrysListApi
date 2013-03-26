@@ -1,7 +1,7 @@
 using System;
 using LarrysList.Auth;
 using LarrysList.Models;
-
+using LarrysList.Services.Messaging;
 
 
 namespace LarrysList.Controllers.Web
@@ -16,7 +16,7 @@ namespace LarrysList.Controllers.Web
                 result = orm.execObject<Result>(user, "api.user_email_signup");
                  if (result.dbMessage == null)
                 {
-                    //result.User.sendWelcomeEmail();
+                    result.User.sendWelcomeEmailUser();
                 }
             }
             catch (Exception exp)
@@ -65,7 +65,7 @@ namespace LarrysList.Controllers.Web
                 result = orm.execObject<Result>(user, "api.user_pwd_forgot");
                 if (result.dbMessage == null)
                 {
-                   // result.User.sendPwdForgot();
+                    result.User.sendPwdForgotUser();
                 }
             }
             catch (Exception exp)
@@ -85,7 +85,7 @@ namespace LarrysList.Controllers.Web
                 result = orm.execObject<Result>(user, "api.user_resend_pwd_forgot");
                 if (result.dbMessage == null)
                 {
-                   // result.User.sendPwdForgot();
+                    result.User.sendPwdForgotUser();
                 }
             }
             catch (Exception exp)
