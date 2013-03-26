@@ -115,11 +115,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Auth\AuthClient.cs" />
+    <Compile Include="Auth\BasicAuth.cs" />
     <Compile Include="Auth\JsonStore.cs" />
     <Compile Include="Controllers\Admin\CollectionController.cs" />
     <Compile Include="Controllers\Admin\CollectorController.cs" />
     <Compile Include="Controllers\Admin\FeederController.cs" />
     <Compile Include="Controllers\Admin\SearchController.cs" />
+    <Compile Include="Controllers\Adyen\NoticeController.cs" />
     <Compile Include="Controllers\ArtistController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\ConfigController.cs" />
@@ -132,6 +134,7 @@
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\AddressSearch.cs" />
     <Compile Include="Models\AddressSearchResult.cs" />
+    <Compile Include="Models\AdyenResult.cs" />
     <Compile Include="Models\ArtFair.cs" />
     <Compile Include="Models\Artist.cs" />
     <Compile Include="Models\ArtistSearch.cs" />

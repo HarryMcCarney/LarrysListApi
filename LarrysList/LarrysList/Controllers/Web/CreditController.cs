@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using LarryList.Services.PaymentService;
 using LarrysList.Models;
 using LarrysList.Services.PaymentService;
+using LarrysList.comadyenpaltest;
+using Payment = LarrysList.Models.Payment;
 
 namespace LarrysList.Controllers.Web
 {
@@ -14,7 +17,7 @@ namespace LarrysList.Controllers.Web
         {
             try
             {
-                result.PaymentStatus = new Pay(payment, payment.userToken).makePayment();
+                result = orm.execObject<Result>(payment, "api.user_payment_create");
             }
             catch (Exception exp)
             {
@@ -22,6 +25,41 @@ namespace LarrysList.Controllers.Web
             }
             return formattedResult(result);
             }
+
+        public string paymentResult(AdyenResult adyenResult)
+        {
+            try
+            {
+                //here we map the fields
+                var paymentNotice = new PaymentNotice
+                    {
+                        success = true,
+                        paymentRef = adyenResult.merchantReference,
+                        type = adyenResult.authResult,
+                        transactionId = adyenResult.pspReference
+                    };
+
+
+                //then we create thepayment notice
+                CreatePaymentNotice.save(paymentNotice);
+
+                //then we result a payment status
+                result.PaymentStatus = new PaymentStatus
+                    {
+                        paymentRef = adyenResult.merchantReference,
+                        success = (adyenResult.authResult == "AUTHORISED"),
+
+
+                    };
+             }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
+
 
         public string spend(User user)
         {
@@ -36,4 +74,6 @@ namespace LarrysList.Controllers.Web
             return formattedResult(result);
         }
     }
+
+  
 }

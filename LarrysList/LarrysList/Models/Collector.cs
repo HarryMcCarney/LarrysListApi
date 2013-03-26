@@ -39,6 +39,8 @@ namespace LarrysList.Models
         public string title { get; set; }
         [XmlAttribute]
         public string picture { get; set; }
+        [XmlAttribute]
+        public string inActive { get; set; }
         [XmlElement]
         public List<Address> Address { get; set; }
         [XmlElement]
