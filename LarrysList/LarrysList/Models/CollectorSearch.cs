@@ -15,5 +15,7 @@ namespace LarrysList.Models
         public bool my { get; set; }
         [XmlAttribute]
         public string userToken { get; set; }
+        [XmlAttribute]
+        public string term { get; set; }
     }
 }
