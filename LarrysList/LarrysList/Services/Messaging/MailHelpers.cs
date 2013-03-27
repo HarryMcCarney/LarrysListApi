@@ -11,7 +11,7 @@ namespace LarrysList.Services.Messaging
         {
             var messaging = new MessagingService();
             var resetUrl = getUrl(Globals.Instance.settings["WebHost"],
-                                    Globals.Instance.settings["UserPwdReset"], feeder.activationToken);
+                                    Globals.Instance.settings["AdminPwdReset"], feeder.activationToken);
 
             var forgotPwdEmail = new ForgotPwdEmail(feeder.email, resetUrl, feeder.name);
             messaging.enqueueMessage(forgotPwdEmail);
@@ -50,7 +50,7 @@ namespace LarrysList.Services.Messaging
         public static void sendReceiptEmail(this Payment pay)
         {
             var messaging = new MessagingService();
-            var forgotPwdEmail = new SendReceiptEmail(pay.paymentRef, pay.amount, pay.currency, pay.shopperEmail, pay.accountHolderName);
+            var forgotPwdEmail = new SendReceiptEmail(pay.paymentRef, pay.amount.ToString(), pay.currency, pay.shopperEmail, pay.accountHolderName);
             messaging.enqueueMessage(forgotPwdEmail);
         }
 

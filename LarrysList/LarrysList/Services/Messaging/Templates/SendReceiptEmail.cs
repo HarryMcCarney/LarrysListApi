@@ -13,13 +13,13 @@ namespace BurnPlus.Services.Messaging.Templates
         public string jangoId { get; set; }
 
         public string paymentRef { get; set; }
-        public int amount { get; set; }        
+        public string amount { get; set; }        
         public string currency { get; set; }       
         public string toEmail { get; set; }
         public string userName { get; set; }
        
 
-        public SendReceiptEmail(string _paymentRef, int _amount, string _currency, string _toEmail, string _userName)
+        public SendReceiptEmail(string _paymentRef, string _amount, string _currency, string _toEmail, string _userName)
         {
             type = "EMAIL";
             jangoId = "281626572";

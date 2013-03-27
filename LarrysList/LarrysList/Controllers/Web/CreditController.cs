@@ -56,6 +56,10 @@ namespace LarrysList.Controllers.Web
                 if (result.PaymentStatus.success)
                 {
 
+                   //pay.paymentRef, pay.amount, pay.currency, pay.shopperEmail, pay.accountHolderName
+                    var paramPayment = new Payment { paymentRef = adyenResult.merchantReference };
+                    result.Payment = orm.execObject<Result>(paramPayment, "api.user_payment_get").Payment;
+
                     result.Payment.sendReceiptEmail();
                 }
              }
