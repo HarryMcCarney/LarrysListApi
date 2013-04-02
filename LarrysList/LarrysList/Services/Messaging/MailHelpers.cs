@@ -50,7 +50,7 @@ namespace LarrysList.Services.Messaging
         public static void sendReceiptEmail(this Payment pay)
         {
             var messaging = new MessagingService();
-            var forgotPwdEmail = new SendReceiptEmail(pay.paymentRef, pay.amount.ToString(), pay.currency, pay.shopperEmail, pay.accountHolderName);
+            var forgotPwdEmail = new SendReceiptEmail(pay.paymentRef,(pay.amount/100).ToString(), pay.currency, pay.shopperEmail, pay.accountHolderName);
             messaging.enqueueMessage(forgotPwdEmail);
         }
 
