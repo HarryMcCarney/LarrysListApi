@@ -10,6 +10,7 @@ set-location "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\"
 Stop-WebSite $site
 Stop-Service LarrysListMailQueue | Out-Null
 Stop-Service LarrysListRankingandCompletionLive | Out-Null
+Stop-Service LarrysListRankingLive | Out-Null
 
 
 #delete everything 
@@ -75,6 +76,14 @@ $root.connectionStrings.add.connectionString = $JobconnectionString
 $xml.Save($webConfigPath)
 
 
+#RankingServiceName
+$webConfigPath = "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\Ranking\Ranking.exe.config"
+$xml = [xml](get-content $webConfigPath)
+$root = $xml.get_DocumentElement();
+$root.connectionStrings.add.connectionString = $JobconnectionString
+$xml.Save($webConfigPath)
+
+
 
 
 
@@ -84,7 +93,8 @@ $xml.Save($webConfigPath)
 #start sites and services 
 Start-WebSite $site
 Start-Service LarrysListMailQueue
-Stop-Service LarrysListRankingandCompletionLive | Out-Null
+Start-Service LarrysListRankingandCompletionLive | Out-Null
+Start-Service LarrysListRankingLive | Out-Null
 
 
 
