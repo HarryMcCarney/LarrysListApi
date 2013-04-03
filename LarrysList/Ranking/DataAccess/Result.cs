@@ -21,7 +21,7 @@ namespace Ranking.DataAccess
         [XmlAttribute]
         public int status {get ; set;}
         [XmlAttribute]
-        public string proc { get; set; }
+        public string procName { get; set; }
         [XmlElement]
         public List<Collector> Collector { get; set; }
     }
