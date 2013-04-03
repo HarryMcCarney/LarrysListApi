@@ -1,13 +1,14 @@
-﻿using ConsoleApplication1.Models;
+﻿using Ranking.DataAccess;
 using DBVC;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using NLog;
+using Ranking.Models;
 using System;
 using System.Collections.Generic;
 using System.Net;
 
-namespace ConsoleApplication1
+namespace Ranking
 {
     public class Ranks
     {
@@ -42,7 +43,7 @@ namespace ConsoleApplication1
             var cr = new CollectorsHits {Collectors = collectors};
             var orm = new Orm();
             log.Info("Writting information to database - number of hits");
-            var res = orm.execObject<Result>(cr, "api.set_collectors_rank");
+            var res = orm.execObject<Ranking.DataAccess.Result>(cr, "api.set_collectors_rank");
      }
 
         public static int getNumberOfHits(string searchTerm)

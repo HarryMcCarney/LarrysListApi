@@ -1,21 +1,19 @@
 ﻿using DBVC;
-using Ranking.DataAccess;
+using LarrysList.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Ranking.Models;
+using Result = LarrysList.Result;
 
-
-namespace Ranking
+namespace RankingandCompletion
 {
 
     public class Globals
     {
         private static Globals instance = new Globals();
         public Dictionary<string, string> settings;
-        public List<string> rankPages;
    
 
         public static Globals Instance
@@ -26,19 +24,8 @@ namespace Ranking
         private Globals()
         {
             var orm = new Orm();
-            var result = orm.execObject<Ranking.DataAccess.Result>(null, "api.global_config");
+            var result = orm.execObject<Result>(null, "api.global_config");
             getSettings(result.Global);
-            getRankPages(result.Global);
-        }
-
-
-        private void getRankPages(Global global)
-        {
-            rankPages = new List<string>();
-            foreach (var p in global.RankPage)
-            {
-               rankPages.Add(p.url);
-            }
         }
 
         private void getSettings(Global global)
@@ -51,7 +38,6 @@ namespace Ranking
             }
 
         }
-
 
     }
 }

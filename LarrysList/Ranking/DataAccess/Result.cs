@@ -5,8 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
+using Ranking.Models;
 
-namespace ConsoleApplication1
+namespace Ranking.DataAccess
 {
     [Serializable]
     public class Result:IResult

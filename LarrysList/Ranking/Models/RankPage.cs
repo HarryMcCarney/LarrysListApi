@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
 
-namespace ConsoleApplication1
+namespace Ranking.Models
 {
     [Serializable]
     public class RankPage

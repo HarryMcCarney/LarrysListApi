@@ -23,7 +23,7 @@ namespace RankingandCompletion
                 x.RunAsNetworkService();
 
 
-                var serviceName = ConfigurationManager.AppSettings["serviceName"];
+                var serviceName = Globals.Instance.settings["RankingandCompletionServiceName"];
                 x.SetDescription(serviceName);
                 x.SetDisplayName(serviceName);
                 x.SetServiceName(serviceName);

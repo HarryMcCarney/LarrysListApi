@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 
-namespace ConsoleApplication1
+namespace Ranking
 {
     public class RankRunner
     {

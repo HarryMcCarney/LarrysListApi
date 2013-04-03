@@ -60,7 +60,6 @@
     <Compile Include="AuthToken.cs" />
     <Compile Include="DataAccess\Collector.cs" />
     <Compile Include="Collectors.cs" />
-    <Compile Include="Config.cs" />
     <Compile Include="Models\CollectorsHits.cs" />
     <Compile Include="RankRunner.cs" />
     <Compile Include="Ranks.cs" />

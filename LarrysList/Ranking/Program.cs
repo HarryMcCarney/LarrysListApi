@@ -7,7 +7,7 @@ using System.Timers;
 using Topshelf;
 
 
-namespace ConsoleApplication1
+namespace Ranking
 {
     class Program
     {
