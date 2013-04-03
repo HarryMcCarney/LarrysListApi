@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Timers;
@@ -26,10 +27,10 @@ namespace ConsoleApplication1
                     s.WhenStopped(tc => tc.stop());
                 });
                 x.RunAsNetworkService();
-
-                x.SetDescription("LarrysList Google Rank");
-                x.SetDisplayName("LarrysListGoogleRank");
-                x.SetServiceName("LarrysListGoogleRank");
+                var serviceName = Globals.Instance.settings["RankingServiceName"];
+                x.SetDescription(serviceName);
+                x.SetDisplayName(serviceName);
+                x.SetServiceName(serviceName);
 
             });    
 

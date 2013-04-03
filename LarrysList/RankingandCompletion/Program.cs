@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,9 +22,11 @@ namespace RankingandCompletion
                 });
                 x.RunAsNetworkService();
 
-                x.SetDescription("LarrysList Ranking and Completion Live");
-                x.SetDisplayName("LarrysListRankingandCompletionLive");
-                x.SetServiceName("LarrysListRankingandCompletionLive");
+
+                var serviceName = ConfigurationManager.AppSettings["serviceName"];
+                x.SetDescription(serviceName);
+                x.SetDisplayName(serviceName);
+                x.SetServiceName(serviceName);
             });                                                    
         }
     }
