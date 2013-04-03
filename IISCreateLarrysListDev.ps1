@@ -13,5 +13,5 @@ Set-ItemProperty IIS:\Sites\LarrysList_Dev_Api -name applicationPool -value Larr
 
 remove-item IIS:\Sites\LarrysList_Dev_Reports -recurse
 
-New-Item IIS:\Sites\BurnPlus_Dev_Reports -bindings @{protocol="http";bindingInformation=":80:dev.reports.bookpar.com"} -physicalPath c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListReports
+New-Item IIS:\Sites\LarrysList_Dev_Reports -bindings @{protocol="http";bindingInformation=":80:dev.reports.bookpar.com"} -physicalPath c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListReports
 Set-ItemProperty IIS:\Sites\LarrysList_Dev_Reports -name applicationPool -value LarrysListDevAppPool
