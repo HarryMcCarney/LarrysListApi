@@ -83,6 +83,8 @@ namespace LarrysList.Models
         public bool hasCollection { get; set; }
         [XmlAttribute]
         public bool isContactable { get; set; }
+        [XmlAttribute]
+        public int googleRankingPoints { get; set; }
 
     }
  

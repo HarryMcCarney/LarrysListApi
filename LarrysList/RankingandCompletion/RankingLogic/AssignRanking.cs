@@ -51,12 +51,8 @@ namespace RankingandCompletion.RankingLogic
         private void magazine()
         {
             log.Info("magazine ranking");
-            if (collector.lastName.Length % 2 != 0)
-                points += 1;
-            else
-            {
-                points += 2;
-            }
+            points += collector.googleRankingPoints;
+            
 
         }
 

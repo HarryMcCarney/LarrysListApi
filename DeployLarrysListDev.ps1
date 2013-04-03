@@ -41,6 +41,9 @@ copy-item "c:\hudson\jobs\LarrysList_$env\workspace\LarrysList\MailQueue\bin\*" 
 New-Item "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\RankingandCompletion\" -type directory
 copy-item "c:\hudson\jobs\LarrysList_$env\workspace\LarrysList\RankingandCompletion\bin\*" "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\RankingandCompletion\" -recurse
 
+New-Item "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\Ranking\" -type directory
+copy-item "c:\hudson\jobs\LarrysList_$env\workspace\LarrysList\Ranking\bin\*" "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\Ranking\" -recurse
+
 
 
 
@@ -50,6 +53,7 @@ if ($env -eq "Live")
 {
 #UPDATE .configs
 $connectionString = "data source=88.198.7.228\Descartes,1984;Initial Catalog=LarrysList_Live;User Id=LarrysList_user;Password=Popov2010;"
+$JobconnectionString = "data source=88.198.7.228\Descartes,1984;Initial Catalog=LarrysList_Live;User Id=LarrysList_job;Password=Popov2010;"
 #API
 $webConfigPath = "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListApi\web.config"
 $xml = [xml](get-content $webConfigPath)
@@ -61,6 +65,13 @@ $webConfigPath = "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServic
 $xml = [xml](get-content $webConfigPath)
 $root = $xml.get_DocumentElement();
 $root.connectionStrings.add.connectionString = $connectionString
+$xml.Save($webConfigPath)
+
+#Ranking
+$webConfigPath = "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\Ranking\Ranking.exe.config"
+$xml = [xml](get-content $webConfigPath)
+$root = $xml.get_DocumentElement();
+$root.connectionStrings.add.connectionString = $JobconnectionString
 $xml.Save($webConfigPath)
 
 

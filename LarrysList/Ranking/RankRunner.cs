@@ -13,8 +13,18 @@ namespace ConsoleApplication1
          public RankRunner()
         {
             _timer = new Timer(1000) { AutoReset = true };
-            _timer.Elapsed += (sender, eventArgs) => Ranks.getRanks();
+             _timer.Elapsed += (sender, eventArgs) => elapsedEvent();
         }
+
+
+        private void elapsedEvent()
+        {
+            _timer.Interval = 86400000;
+            Ranks.getRanks();
+            
+
+        }
+
         public void start() { _timer.Start(); }
         public void stop() { _timer.Stop(); }
     }
