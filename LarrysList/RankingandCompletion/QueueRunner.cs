@@ -32,7 +32,9 @@ namespace RankingandCompletion
 
         public void process()
         {
+
             log.Info("starting job");
+            _timer.Interval = 86400000;
             new CollectorQueue().process();
             log.Info("finsihed job");
         }
