@@ -18,23 +18,31 @@ namespace Ranking
         private static Logger log = LogManager.GetCurrentClassLogger();
         public static void getRanks()
         {
-            log.Info("Seting up pages on google cse");           
-            SearchPages.createSearchPages();
 
-            var collectors = Collectors.getCollectors();
-            log.Info("Getting all collectors from database - number of collectors " + collectors.Count);
-            
-            foreach (Collector c in collectors)
+            try
             {
-                log.Info("getting hits for " + c.firstName +" " + c.lastName);
-                var searchTerm = String.Format("{0} {1}", c.firstName, c.lastName);
-                c.hits = (int)getNumberOfHits(searchTerm);            
-            }
-            setColectorHits(collectors);
-            
-           log.Info("Cleaning cse");
-           SearchPages.deleteSearchPages();
+                log.Info("Seting up pages on google cse");
+                SearchPages.createSearchPages();
 
+                var collectors = Collectors.getCollectors();
+                log.Info("Getting all collectors from database - number of collectors " + collectors.Count);
+
+                foreach (Collector c in collectors)
+                {
+                    log.Info("getting hits for " + c.firstName + " " + c.lastName);
+                    var searchTerm = String.Format("{0} {1}", c.firstName, c.lastName);
+                    c.hits = (int)getNumberOfHits(searchTerm);
+                }
+                setColectorHits(collectors);
+
+                log.Info("Cleaning cse");
+                SearchPages.deleteSearchPages();
+            }
+
+            catch (Exception e) {
+
+                log.Error(e);
+            }
             
 
         }

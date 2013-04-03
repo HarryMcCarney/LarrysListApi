@@ -69,6 +69,7 @@ namespace Ranking
                 {
                     string[] auth = s.Split(delimiterChars_auth);
                      myAuthToken = auth[1];
+                     break;
                 }
             }
             return myAuthToken;
