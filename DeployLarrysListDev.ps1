@@ -23,6 +23,15 @@ copy-item "c:\Hudson\jobs\LarrysList_$env\workspace\LarrysList\LarrysList\web.co
 copy-item "c:\Hudson\jobs\LarrysList_$env\workspace\LarrysList\LarrysList\global.asax" "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListApi"
 copy-item "c:\Hudson\jobs\LarrysList_$env\workspace\LarrysList\LarrysList\nlog.config" "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListApi"
 
+
+#deploy reports
+New-Item c:\inetpub\wwwroot\LarrysList\LarrysList_$env\larrysListReports -type directory
+copy-item c:\Hudson\jobs\LarrysList_$env\workspace\LarrysList\ReportPortal\* c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListReports -recurse
+
+
+
+
+
 #deploy services 
 New-Item "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices" -type directory
 New-Item "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\MailQueue\" -type directory
@@ -31,6 +40,11 @@ copy-item "c:\hudson\jobs\LarrysList_$env\workspace\LarrysList\MailQueue\bin\*" 
 
 New-Item "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\RankingandCompletion\" -type directory
 copy-item "c:\hudson\jobs\LarrysList_$env\workspace\LarrysList\RankingandCompletion\bin\*" "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\RankingandCompletion\" -recurse
+
+
+
+
+
 
 if ($env -eq "Live")
 {
