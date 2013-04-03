@@ -26,6 +26,7 @@ namespace Ranking
             
             foreach (Collector c in collectors)
             {
+                log.Info("getting hits for " + c.firstName +" " + c.lastName);
                 var searchTerm = String.Format("{0} {1}", c.firstName, c.lastName);
                 c.hits = (int)getNumberOfHits(searchTerm);            
             }
