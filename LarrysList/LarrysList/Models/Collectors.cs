@@ -8,7 +8,7 @@ namespace LarrysList.Models
     public class Collectors
     {
         [XmlElement]
-        public List<Collector> Collector { get; set; }
+        public List<Collector>  Collector { get; set; }
 
     }
 }

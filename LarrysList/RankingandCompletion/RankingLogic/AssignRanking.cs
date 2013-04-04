@@ -24,11 +24,13 @@ namespace RankingandCompletion.RankingLogic
         public void assign()
         {
             artfair();
-            magazine();
+            
             platform();
             museum();
             engagement();
             information();
+
+            magazine();
 
             log.Info("assign calculated ranking points to collector");
             collector.ranking = points;
@@ -51,6 +53,7 @@ namespace RankingandCompletion.RankingLogic
         private void magazine()
         {
             log.Info("magazine ranking");
+            points = points*800;
             points += collector.googleRankingPoints;
             
 
