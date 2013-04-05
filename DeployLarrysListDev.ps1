@@ -14,10 +14,10 @@ Stop-Service LarrysListGoogleRank$env | Out-Null
 
 
 #uninstall services
-set-location "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\Ranking\"
-
-invoke-expression "RankingandCompletion.exe uninstall" 
+set-location "c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListServices\Ranking\"
 invoke-expression "Ranking.exe uninstall"
+set-location "c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListServices\RankingandCompletion\"
+invoke-expression "RankingandCompletion.exe uninstall" 
 
 
 set-location "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\"
@@ -97,9 +97,10 @@ $xml.Save($webConfigPath)
 
 }
 #install services
-set-location "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\Ranking\"
-invoke-expression "RankingandCompletion.exe install" 
+set-location "c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListServices\Ranking\"
 invoke-expression "Ranking.exe install"
+set-location "c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListServices\RankingandCompletion\"
+invoke-expression "RankingandCompletion.exe install" 
 
 #start sites and services 
 Start-WebSite $site
