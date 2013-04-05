@@ -27,10 +27,16 @@ namespace RankingandCompletion.RankingLogic
         {
 
             var criteria2 = new List<int> {artfair(), platform(), museum(), engagement(), information(), url()};
-            var optional = (from x in criteria2 orderby x ascending where x > 0 select x).
-            First();
-            criteria2.Add(optional);
+            var exists = (from x in criteria2 where x > 0 select x).Any(x => x > 0);
+            if (exists)
+            {
 
+                var optional = (from x in criteria2 orderby x ascending where x > 0 select x).
+                    First();
+
+
+                criteria2.Add(optional);
+            }
             points = (from x in criteria2 select x).Sum() * 800;
            
             points  += magazine();

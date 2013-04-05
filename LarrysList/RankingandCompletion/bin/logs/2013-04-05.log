@@ -1,0 +1,134 @@
+HARRY-LAPTOP 2013-04-05 17:55:56.3154 INFO starting job
+HARRY-LAPTOP 2013-04-05 17:55:56.3545 INFO CollectorQueue instantiated
+HARRY-LAPTOP 2013-04-05 17:55:56.3545 INFO debugging in here
+HARRY-LAPTOP 2013-04-05 17:55:58.6328 INFO fetching all collectors from db
+HARRY-LAPTOP 2013-04-05 17:56:06.9309 INFO fetched all collectors from db
+HARRY-LAPTOP 2013-04-05 17:56:06.9309 INFO processing roy Vermus- ???? 
+HARRY-LAPTOP 2013-04-05 17:56:06.9309 INFO begin ranking assigment
+HARRY-LAPTOP 2013-04-05 17:56:06.9309 INFO getting meta info for ranking
+HARRY-LAPTOP 2013-04-05 17:56:09.3721 INFO artfair ranking
+HARRY-LAPTOP 2013-04-05 17:56:09.3911 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 17:56:09.3911 INFO museum ranking
+HARRY-LAPTOP 2013-04-05 17:56:09.3911 INFO engagement ranking
+HARRY-LAPTOP 2013-04-05 17:56:09.3911 INFO information ranking
+HARRY-LAPTOP 2013-04-05 17:56:09.4001 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 17:56:27.7654 INFO starting job
+HARRY-LAPTOP 2013-04-05 17:56:27.7914 INFO CollectorQueue instantiated
+HARRY-LAPTOP 2013-04-05 17:56:27.7914 INFO debugging in here
+HARRY-LAPTOP 2013-04-05 17:56:29.7269 INFO fetching all collectors from db
+HARRY-LAPTOP 2013-04-05 17:56:39.8631 INFO fetched all collectors from db
+HARRY-LAPTOP 2013-04-05 17:56:39.8631 INFO processing roy Vermus- ???? 
+HARRY-LAPTOP 2013-04-05 17:56:39.8731 INFO begin ranking assigment
+HARRY-LAPTOP 2013-04-05 17:56:39.8731 INFO getting meta info for ranking
+HARRY-LAPTOP 2013-04-05 17:56:49.0164 INFO artfair ranking
+HARRY-LAPTOP 2013-04-05 17:56:49.0274 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 17:56:49.0274 INFO museum ranking
+HARRY-LAPTOP 2013-04-05 17:56:49.0274 INFO engagement ranking
+HARRY-LAPTOP 2013-04-05 17:56:49.0274 INFO information ranking
+HARRY-LAPTOP 2013-04-05 17:56:49.0274 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 17:57:36.9531 INFO starting job
+HARRY-LAPTOP 2013-04-05 17:57:36.9831 INFO CollectorQueue instantiated
+HARRY-LAPTOP 2013-04-05 17:57:36.9931 INFO debugging in here
+HARRY-LAPTOP 2013-04-05 17:57:40.2577 INFO fetching all collectors from db
+HARRY-LAPTOP 2013-04-05 17:57:48.6235 INFO fetched all collectors from db
+HARRY-LAPTOP 2013-04-05 17:57:48.6235 INFO processing roy Vermus- ???? 
+HARRY-LAPTOP 2013-04-05 17:57:48.6235 INFO begin ranking assigment
+HARRY-LAPTOP 2013-04-05 17:57:48.6335 INFO getting meta info for ranking
+HARRY-LAPTOP 2013-04-05 17:57:52.2560 INFO artfair ranking
+HARRY-LAPTOP 2013-04-05 17:58:05.2006 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 17:58:10.3594 INFO museum ranking
+HARRY-LAPTOP 2013-04-05 17:58:16.8578 INFO engagement ranking
+HARRY-LAPTOP 2013-04-05 17:58:29.1837 INFO information ranking
+HARRY-LAPTOP 2013-04-05 17:58:32.7753 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 18:04:39.5803 INFO starting job
+HARRY-LAPTOP 2013-04-05 18:04:39.6224 INFO CollectorQueue instantiated
+HARRY-LAPTOP 2013-04-05 18:04:39.6224 INFO debugging in here
+HARRY-LAPTOP 2013-04-05 18:04:42.3423 INFO fetching all collectors from db
+HARRY-LAPTOP 2013-04-05 18:04:51.0498 INFO fetched all collectors from db
+HARRY-LAPTOP 2013-04-05 18:04:51.0498 INFO processing roy Vermus- ???? 
+HARRY-LAPTOP 2013-04-05 18:04:51.0578 INFO begin ranking assigment
+HARRY-LAPTOP 2013-04-05 18:04:51.0578 INFO getting meta info for ranking
+HARRY-LAPTOP 2013-04-05 18:04:53.7846 INFO artfair ranking
+HARRY-LAPTOP 2013-04-05 18:04:53.7956 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 18:04:53.7956 INFO museum ranking
+HARRY-LAPTOP 2013-04-05 18:04:53.7956 INFO engagement ranking
+HARRY-LAPTOP 2013-04-05 18:04:53.7956 INFO information ranking
+HARRY-LAPTOP 2013-04-05 18:04:53.8056 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 18:05:01.4145 INFO magazine ranking
+HARRY-LAPTOP 2013-04-05 18:05:01.4145 INFO assign calculated ranking points to collector
+HARRY-LAPTOP 2013-04-05 18:05:01.4145 INFO completion assignmetn starting for roy Vermus- ???? 
+HARRY-LAPTOP 2013-04-05 18:05:01.4687 INFO finsihed calculating conpletion points for roy Vermus- ???? 
+HARRY-LAPTOP 2013-04-05 18:05:01.4687 INFO finsihed calculation for roy Vermus- ???? 
+HARRY-LAPTOP 2013-04-05 18:05:01.4687 INFO processing Jeff Kelley
+HARRY-LAPTOP 2013-04-05 18:05:01.4687 INFO begin ranking assigment
+HARRY-LAPTOP 2013-04-05 18:05:01.4687 INFO getting meta info for ranking
+HARRY-LAPTOP 2013-04-05 18:05:02.7115 INFO artfair ranking
+HARRY-LAPTOP 2013-04-05 18:05:02.7115 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 18:05:02.7115 INFO museum ranking
+HARRY-LAPTOP 2013-04-05 18:05:02.7115 INFO engagement ranking
+HARRY-LAPTOP 2013-04-05 18:05:02.7115 INFO information ranking
+HARRY-LAPTOP 2013-04-05 18:05:02.7115 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 18:05:02.7115 INFO magazine ranking
+HARRY-LAPTOP 2013-04-05 18:05:02.7115 INFO assign calculated ranking points to collector
+HARRY-LAPTOP 2013-04-05 18:05:02.7285 INFO completion assignmetn starting for Jeff Kelley
+HARRY-LAPTOP 2013-04-05 18:05:02.7706 INFO finsihed calculating conpletion points for Jeff Kelley
+HARRY-LAPTOP 2013-04-05 18:05:02.7706 INFO finsihed calculation for Jeff Kelley
+HARRY-LAPTOP 2013-04-05 18:05:02.7743 INFO processing Fatima  Al Mazroui Ghobash
+HARRY-LAPTOP 2013-04-05 18:05:02.7743 INFO begin ranking assigment
+HARRY-LAPTOP 2013-04-05 18:05:02.7743 INFO getting meta info for ranking
+HARRY-LAPTOP 2013-04-05 18:05:03.5676 INFO artfair ranking
+HARRY-LAPTOP 2013-04-05 18:05:03.6237 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 18:05:03.6237 INFO museum ranking
+HARRY-LAPTOP 2013-04-05 18:05:03.6237 INFO engagement ranking
+HARRY-LAPTOP 2013-04-05 18:05:03.6237 INFO information ranking
+HARRY-LAPTOP 2013-04-05 18:05:03.6330 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 18:05:12.8345 INFO magazine ranking
+HARRY-LAPTOP 2013-04-05 18:05:12.8365 INFO assign calculated ranking points to collector
+HARRY-LAPTOP 2013-04-05 18:05:12.8365 INFO completion assignmetn starting for Fatima  Al Mazroui Ghobash
+HARRY-LAPTOP 2013-04-05 18:05:12.8815 INFO finsihed calculating conpletion points for Fatima  Al Mazroui Ghobash
+HARRY-LAPTOP 2013-04-05 18:05:12.8835 INFO finsihed calculation for Fatima  Al Mazroui Ghobash
+HARRY-LAPTOP 2013-04-05 18:05:12.9035 INFO processing mapa mapa
+HARRY-LAPTOP 2013-04-05 18:05:12.9035 INFO begin ranking assigment
+HARRY-LAPTOP 2013-04-05 18:05:12.9035 INFO getting meta info for ranking
+HARRY-LAPTOP 2013-04-05 18:05:13.7034 INFO artfair ranking
+HARRY-LAPTOP 2013-04-05 18:05:13.7034 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 18:05:13.7034 INFO museum ranking
+HARRY-LAPTOP 2013-04-05 18:05:13.7034 INFO engagement ranking
+HARRY-LAPTOP 2013-04-05 18:05:13.7034 INFO information ranking
+HARRY-LAPTOP 2013-04-05 18:05:13.7134 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 18:05:13.7134 INFO magazine ranking
+HARRY-LAPTOP 2013-04-05 18:05:13.7134 INFO assign calculated ranking points to collector
+HARRY-LAPTOP 2013-04-05 18:05:13.7134 INFO completion assignmetn starting for mapa mapa
+HARRY-LAPTOP 2013-04-05 18:05:13.7584 INFO finsihed calculating conpletion points for mapa mapa
+HARRY-LAPTOP 2013-04-05 18:05:13.7584 INFO finsihed calculation for mapa mapa
+HARRY-LAPTOP 2013-04-05 18:05:13.7584 INFO processing Adam Lindemann DELETE
+HARRY-LAPTOP 2013-04-05 18:05:13.7584 INFO begin ranking assigment
+HARRY-LAPTOP 2013-04-05 18:05:13.7584 INFO getting meta info for ranking
+HARRY-LAPTOP 2013-04-05 18:05:14.2865 INFO artfair ranking
+HARRY-LAPTOP 2013-04-05 18:05:14.2865 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 18:05:14.2915 INFO museum ranking
+HARRY-LAPTOP 2013-04-05 18:05:14.2915 INFO engagement ranking
+HARRY-LAPTOP 2013-04-05 18:05:14.2915 INFO information ranking
+HARRY-LAPTOP 2013-04-05 18:05:14.2915 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 18:05:14.2915 INFO magazine ranking
+HARRY-LAPTOP 2013-04-05 18:05:14.2915 INFO assign calculated ranking points to collector
+HARRY-LAPTOP 2013-04-05 18:05:14.2915 INFO completion assignmetn starting for Adam Lindemann DELETE
+HARRY-LAPTOP 2013-04-05 18:05:14.3448 INFO finsihed calculating conpletion points for Adam Lindemann DELETE
+HARRY-LAPTOP 2013-04-05 18:05:14.3448 INFO finsihed calculation for Adam Lindemann DELETE
+HARRY-LAPTOP 2013-04-05 18:05:14.3448 INFO processing Joseph Shanis
+HARRY-LAPTOP 2013-04-05 18:05:14.3448 INFO begin ranking assigment
+HARRY-LAPTOP 2013-04-05 18:05:14.3518 INFO getting meta info for ranking
+HARRY-LAPTOP 2013-04-05 18:05:14.4432 INFO artfair ranking
+HARRY-LAPTOP 2013-04-05 18:05:14.4462 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 18:05:14.4462 INFO museum ranking
+HARRY-LAPTOP 2013-04-05 18:05:14.4462 INFO engagement ranking
+HARRY-LAPTOP 2013-04-05 18:05:14.4462 INFO information ranking
+HARRY-LAPTOP 2013-04-05 18:05:14.4462 INFO platform ranking
+HARRY-LAPTOP 2013-04-05 18:05:14.4632 INFO magazine ranking
+HARRY-LAPTOP 2013-04-05 18:05:14.4632 INFO assign calculated ranking points to collector
+HARRY-LAPTOP 2013-04-05 18:05:14.4632 INFO completion assignmetn starting for Joseph Shanis
+HARRY-LAPTOP 2013-04-05 18:05:14.5062 INFO finsihed calculating conpletion points for Joseph Shanis
+HARRY-LAPTOP 2013-04-05 18:05:14.5092 INFO finsihed calculation for Joseph Shanis
+HARRY-LAPTOP 2013-04-05 18:05:14.5092 INFO processing Gayle Stoffel
+HARRY-LAPTOP 2013-04-05 18:05:14.5092 INFO begin ranking assigment
+HARRY-LAPTOP 2013-04-05 18:05:14.5092 INFO getting meta info for ranking

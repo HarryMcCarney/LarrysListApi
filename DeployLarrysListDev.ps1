@@ -102,12 +102,15 @@ invoke-expression ".\Ranking.exe install"
 set-location "c:\inetpub\wwwroot\LarrysList\LarrysList_Dev\LarrysListServices\RankingandCompletion\"
 invoke-expression ".\RankingandCompletion.exe install" 
 
+
+if ($env -eq "Live")
+{
 #start sites and services 
 Start-WebSite $site
 Start-Service LarrysListMailQueue
 Start-Service LarrysListRankingandCompletion$env | Out-Null
 Start-Service LarrysListGoogleRank$env | Out-Null
-
+}
 
 
 
