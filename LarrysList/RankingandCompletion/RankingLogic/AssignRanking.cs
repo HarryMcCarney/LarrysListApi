@@ -50,7 +50,8 @@ namespace RankingandCompletion.RankingLogic
                 return   1;
             if (fairs > 1)
                 return 2;
-         }
+            return 0;
+        }
 
 
         private int magazine()
