@@ -40,7 +40,7 @@ namespace LarrysList.Models
         [XmlAttribute]
         public string picture { get; set; }
         [XmlAttribute]
-        public string inActive { get; set; }
+        public bool inActive { get; set; }
         [XmlElement]
         public List<Address> Address { get; set; }
         [XmlElement]
@@ -73,6 +73,8 @@ namespace LarrysList.Models
         public LinkedCollector LinkedCollector { get; set; }
         [XmlAttribute]
         public int ranking { get; set; }
+        [XmlAttribute]
+        public int points { get; set; }
         [XmlAttribute]
         public int completion { get; set; }
         [XmlAttribute]

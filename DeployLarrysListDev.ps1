@@ -13,6 +13,13 @@ Stop-Service LarrysListRankingandCompletionLive | Out-Null
 Stop-Service LarrysListRankingLive | Out-Null
 
 
+#uninstall services
+set-location "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\Ranking\"
+LarrysListRankingandCompletionLive.exe uninstall 
+LarrysListRankingLive.exe uninstall
+
+
+set-location "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\"
 #delete everything 
 Remove-item "c:\inetpub\wwwroot\LarrysList\LarrysList_$env" -recurse
 
@@ -88,7 +95,10 @@ $xml.Save($webConfigPath)
 
 
 }
-
+#install services
+set-location "c:\inetpub\wwwroot\LarrysList\LarrysList_$env\LarrysListServices\Ranking\"
+LarrysListRankingandCompletionLive.exe install 
+LarrysListRankingLive.exe install
 
 #start sites and services 
 Start-WebSite $site
