@@ -11,6 +11,7 @@ namespace HnCMailQueue
     {
         public static void Main()
         {
+            /*
             HostFactory.Run(x =>                                 
             {
                 x.Service<QueueRunner>(s =>                        
@@ -24,7 +25,12 @@ namespace HnCMailQueue
                 x.SetDescription("LarrysList Mail Queue");
                 x.SetDisplayName("LarrysListMailQueue");
                 x.SetServiceName("LarrysListMailQueue");                       
-            });                                                    
+            });  
+             * 
+             * */
+
+            new QueueRunner().process();
+
         }
     }
 

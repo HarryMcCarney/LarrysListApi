@@ -12,5 +12,7 @@ namespace LarrysList.Models
         public string key { get; set; }
         [XmlAttribute]
         public string label { get; set; }
+        [XmlAttribute]
+        public string country { get; set; }
     }
 }

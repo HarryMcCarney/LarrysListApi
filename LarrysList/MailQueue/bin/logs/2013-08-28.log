@@ -1,0 +1,5 @@
+HARRY-LAPTOP 2013-08-28 16:08:57.5252 INFO starting to process messages
+HARRY-LAPTOP 2013-08-28 16:09:02.3348 INFO getting messages from db
+HARRY-LAPTOP 2013-08-28 16:09:40.4668 INFO built post string:: Username=LarrysList&Password=842805NL&CampaignID=281626559&ToEmailAddress=mag.resch@gmail.com&PersonalizationFields=template~type~jangoId~toEmail~resetUrl~userName&PersonalizationValues=ForgotPwdEmailUser~EMAIL~281626559~mag.resch%40gmail.com~http%3a%2f%2fwww.larryslist.com%2fpassword%2freset%2f02f3fb29-0e67-46f2-8562-bc5ef0845c2e~magnus&PersonalizationColDelimiter=~&Options=
+HARRY-LAPTOP 2013-08-28 16:10:35.6103 ERROR 
+HARRY-LAPTOP 2013-08-28 16:10:37.8041 ERROR The remote server returned an error: (500) Internal Server Error.

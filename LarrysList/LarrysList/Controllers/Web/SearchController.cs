@@ -1,15 +1,25 @@
 ﻿using LarrysList.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
 
 
 namespace LarrysList.Controllers.Web
 {
     public class SearchController : BaseController
     {
+        public string typeAhead(TypeAhead search)
+        {
+            try
+            {
+                result = orm.execObject<Result>(search, "api.user_type_ahead");
+            }
+            catch (Exception exp)
+            {
+                errorResult(exp);
+            }
+            return formattedResult(result);
+        }
+
+
         public string collector(CollectorSearch search)
         {
             try

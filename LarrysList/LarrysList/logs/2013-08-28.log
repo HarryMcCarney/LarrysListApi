@@ -1,0 +1,6 @@
+HARRY-LAPTOP 2013-08-28 15:12:33.0062 INFO /0.0.1/web/search/typeahead Parameter {"key":"ARTIST", "Value":"a"}
+HARRY-LAPTOP 2013-08-28 15:13:17.0306 INFO /0.0.1/web/search/typeahead Parameter {"key":"CITY", "Value":"a"}
+HARRY-LAPTOP 2013-08-28 15:13:31.5735 INFO /0.0.1/web/search/typeahead Parameter {"key":"MEDIA", "Value":"a"}
+HARRY-LAPTOP 2013-08-28 15:13:47.8700 INFO /0.0.1/web/search/typeahead Parameter {"key":"GENRE", "Value":"a"}
+HARRY-LAPTOP 2013-08-28 15:14:05.5811 INFO /0.0.1/web/search/typeahead Parameter {"key":"COUNTRY", "Value":"a"}
+HARRY-LAPTOP 2013-08-28 15:14:19.5326 INFO /0.0.1/web/search/typeahead Parameter {"key":"ORIGIN", "Value":"a"}

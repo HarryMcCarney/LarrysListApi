@@ -36,7 +36,7 @@ namespace LarrysList.Controllers.Web
                     {
                         success = true,
                         paymentRef = adyenResult.merchantReference,
-                        type =  adyenResult.authResult.Replace("AUTHORISED", "AUTHORISATION").Replace("Refused", "REFUSED"),
+                        type = (adyenResult.authResult == "A") ? "AUTHORISATION" : "REFUSED", 
                         transactionId = adyenResult.pspReference
                     };
 
@@ -48,10 +48,12 @@ namespace LarrysList.Controllers.Web
                 result.PaymentStatus = new PaymentStatus
                     {
                         paymentRef = adyenResult.merchantReference,
-                        success = (adyenResult.authResult == "AUTHORISED"),
+                        success = (adyenResult.authResult == "A"),
 
 
                     };
+
+  
 
                 if (result.PaymentStatus.success)
                 {
